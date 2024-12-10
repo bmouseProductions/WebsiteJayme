@@ -1,6 +1,5 @@
 import React from "react";
 import jaymeImage from "../../../assets/recording.png"; // Substitua pela imagem correta
-import decoration1 from "../../../assets/decoration1.png";
 
 const MaisSobreContato: React.FC = () => {
   return (

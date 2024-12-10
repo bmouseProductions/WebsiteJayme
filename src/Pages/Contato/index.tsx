@@ -1,4 +1,3 @@
-import React from "react";
 import Section1 from "./Section1/Section1";
 import ContactForm from "./Section2/Section2";
 import RedesSociaisSection from "./Section3/Section3";

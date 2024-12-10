@@ -43,7 +43,7 @@ const SectionMagia: React.FC = () => {
         </div>
       </div>
 
-      <div className="md:mt-10 flex mx-auto text-center hidden sm:block">
+      <div className="md:mt-10  mx-auto text-center hidden sm:flex">
         <img src={decoration1} className="mx-auto mt-20 mb-20" />
       </div>
     </section>
