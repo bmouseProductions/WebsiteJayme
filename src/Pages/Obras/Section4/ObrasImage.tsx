@@ -24,7 +24,7 @@ const ObrasImage = () => {
               </p>
             </div>
             <button className="bg-transparent text-white py-2 px-4 text-sm sm:text-base rounded-full border-2 border-white font-normal font-glonimove">
-              Saiba Mais
+              <a href="/Pantanal">Saiba Mais</a>
             </button>
           </div>
         </div>
@@ -46,7 +46,7 @@ const ObrasImage = () => {
               </p>
             </div>
             <button className="bg-transparent text-white py-2 px-4 text-sm sm:text-base rounded-full border-2 border-white font-normal font-glonimove">
-              Saiba Mais
+              <a href="/roque-santeiro">Saiba Mais</a>
             </button>
           </div>
         </div>
@@ -68,7 +68,7 @@ const ObrasImage = () => {
               </p>
             </div>
             <button className="bg-transparent text-white py-2 px-4 text-sm sm:text-base rounded-full border-2 border-white font-normal font-glonimove">
-              Saiba Mais
+              <a href="/o-clone">Saiba Mais</a>
             </button>
           </div>
         </div>

@@ -20,10 +20,9 @@ const SectionMagia: React.FC = () => {
 
         {/* Título */}
         <h1 className="text-4xl md:text-6xl font-semibold font-glonimove tracking-wide leading-snug">
-          JUNTOS PODEMOS TRANSFORMAR A{" "}
-          <span className="text-red-500">MAGIA</span> EM{" "}
-          <span className="text-orange-400">ARTE</span> E DAR VIDA AOS{" "}
-          <span className="text-yellow-300">SONHOS</span>.
+          <span className="text-[#DBB781]">JUNTOS</span> PODEMOS TRANSFORMAR A{" "}
+          MAGIA EM <span className="text-[#DBB781]">ARTE</span> E DAR VIDA AOS{" "}
+          <span className="text-[#DBB781]">SONHOS</span>.
         </h1>
 
         {/* Botão */}

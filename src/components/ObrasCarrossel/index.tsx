@@ -1,12 +1,12 @@
-import pantanalImage from "../../../assets/longaSeries.png";
-import miniSeries from "../../../assets/miniSeries.png";
+import pantanalImage from "../../assets/longaSeries.png";
+import miniSeries from "../../assets/miniSeries.png";
 
 import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const SuasObras = () => {
+const ObrasCarrossel = () => {
   const settings = {
     infinite: true,
     slidesToShow: 2,
@@ -60,9 +60,6 @@ const SuasObras = () => {
               labore, eveniet repudiandae architecto itaque explicabo omnis
               quod!
             </p>
-            <button className="bg-transparent text-white py-2 px-4 rounded-full border-2 border-white lg:mt-5">
-              Saiba Mais
-            </button>
           </div>
         </div>
 
@@ -79,7 +76,7 @@ const SuasObras = () => {
                   Longas Séries
                 </h2>
                 <button className="bg-[#E0471E] rounded-full text-white py-2 px-4 font-semibold font-glonimove">
-                  Saiba Mais
+                  <a href="/Longas-Serie">Saiba Mais</a>
                 </button>
               </div>
             </div>
@@ -94,7 +91,7 @@ const SuasObras = () => {
                   Mini séries
                 </h2>
                 <button className="bg-[#E0471E] rounded-full text-white py-2 px-4 font-semibold font-glonimove">
-                  Saiba Mais
+                  <a href="/Mini-Series">Saiba Mais</a>
                 </button>
               </div>
             </div>
@@ -109,7 +106,7 @@ const SuasObras = () => {
                   Filmes
                 </h2>
                 <button className="bg-[#E0471E] rounded-full text-white py-2 px-4 font-semibold font-glonimove">
-                  Saiba Mais
+                  <a href="/Filmes">Saiba Mais</a>
                 </button>
               </div>
             </div>
@@ -124,7 +121,7 @@ const SuasObras = () => {
                   Lançamentos
                 </h2>
                 <button className="bg-[#E0471E] rounded-full text-white py-2 px-4 font-semibold font-glonimove">
-                  Saiba Mais
+                  <a href="/Lancamentos">Saiba Mais</a>
                 </button>
               </div>
             </div>
@@ -135,4 +132,4 @@ const SuasObras = () => {
   );
 };
 
-export default SuasObras;
+export default ObrasCarrossel;

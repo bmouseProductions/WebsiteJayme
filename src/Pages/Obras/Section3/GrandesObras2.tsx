@@ -68,7 +68,7 @@ const GrandesObras2 = () => {
                   Longas Séries
                 </h2>
                 <button className="bg-[#E0471E] rounded-full text-white py-1 sm:py-2 px-3 sm:px-4 font-normal font-glonimove">
-                  Saiba Mais
+                  <a href="/Longas-Serie">Saiba Mais</a>
                 </button>
               </div>
             </div>
@@ -83,7 +83,7 @@ const GrandesObras2 = () => {
                   Mini séries
                 </h2>
                 <button className="bg-[#E0471E] rounded-full text-white py-1 sm:py-2 px-3 sm:px-4">
-                  Saiba Mais
+                  <a href="/Mini-Series">Saiba Mais</a>
                 </button>
               </div>
             </div>
@@ -98,7 +98,7 @@ const GrandesObras2 = () => {
                   Filmes
                 </h2>
                 <button className="bg-[#E0471E] rounded-full text-white py-1 sm:py-2 px-3 sm:px-4 font-normal font-glonimove">
-                  Saiba Mais
+                  <a href="/Filmes">Saiba Mais</a>
                 </button>
               </div>
             </div>
@@ -113,7 +113,7 @@ const GrandesObras2 = () => {
                   Lançamentos
                 </h2>
                 <button className="bg-[#E0471E] rounded-full text-white py-1 sm:py-2 px-3 sm:px-4 font-normal font-glonimove">
-                  Saiba Mais
+                  <a href="/Lancamentos">Saiba Mais</a>
                 </button>
               </div>
             </div>
