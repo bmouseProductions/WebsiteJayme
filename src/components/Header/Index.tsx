@@ -16,6 +16,7 @@ const Header: React.FC = () => {
         autoPlay
         loop
         muted
+        playsInline
       ></video>
 
       {/* Overlay escurecido para dar contraste */}
