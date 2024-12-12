@@ -3,7 +3,7 @@ import icons from "../../../assets/all-icons.png";
 
 const GrandesNarrativas = () => {
   return (
-    <section className="bg-[#1C2415] p-8 md:p-16 lg:p-32">
+    <section className="bg-[#18231E] p-8 md:p-16 lg:p-32">
       <div className="bg-[#2B3A1D] rounded-lg flex flex-col md:flex-row items-center gap-8 container mx-auto">
         {/* Imagem no topo no mobile */}
         <div className="w-full lg:w-auto flex justify-center">

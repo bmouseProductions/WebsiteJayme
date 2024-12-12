@@ -4,7 +4,7 @@ import icons from "../../../assets/all-icons.png";
 
 const InspirationSection: React.FC = () => {
   return (
-    <section className="bg-[#112011] text-white py-16 px-4 md:px-24">
+    <section className="bg-[#1C2415] text-white py-16 px-4 md:px-24">
       <h1 className="text-center text-[#F12730] text-5xl md:text-6xl font-medium font-glonimove mb-12">
         PARA SE INSPIRAR
       </h1>
@@ -24,7 +24,7 @@ const InspirationSection: React.FC = () => {
         </a>
       </div>
 
-      <div className="bg-[#435332] rounded-lg overflow-hidden">
+      <div className="bg-[#435332] rounded-lg max-w-[1280px] mx-auto overflow-hidden">
         <img
           src={bemVindo}
           alt="Imagem de destaque"

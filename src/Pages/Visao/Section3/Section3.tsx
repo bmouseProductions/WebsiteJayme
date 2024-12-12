@@ -82,7 +82,7 @@ const Palestra = () => {
 
         {/* Slide 2 */}
         <div className="p-4 md:p-10">
-          <div className="bg-[#2B3A1D] h-screen rounded-lg flex flex-col md:flex-row items-center gap-6 md:gap-8 max-w-[1200px] mx-auto">
+          <div className="bg-[#2B3A1D] lg:h-auto h-screen rounded-lg flex flex-col md:flex-row items-center gap-6 md:gap-8 max-w-[1200px] mx-auto">
             {/* Imagem */}
             <div className="w-full md:w-auto flex justify-center">
               <img

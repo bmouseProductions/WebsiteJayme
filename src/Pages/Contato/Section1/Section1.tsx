@@ -137,7 +137,7 @@ const Section1: React.FC = () => {
 
       {/* Conteúdo centralizado */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
-        <h1 className="text-4xl md:text-4xl max-w-xl tracking-wide leading-relaxed font-light font-glonimove">
+        <h1 className="text-4xl md:text-4xl max-w-xl  font-normal font-glonimove">
           Embarque nos sonhos e projetos de Jayme Monjardim
         </h1>
       </div>

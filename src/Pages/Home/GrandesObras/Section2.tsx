@@ -31,6 +31,7 @@ const GrandesObrasSection: React.FC = () => {
             </p>
           </div>
         </div>
+        <div className="border border-b-2 border-[#E0471E] w-full container mt-10"></div>
 
         {/* Bloco inferior: Grade de obras */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">

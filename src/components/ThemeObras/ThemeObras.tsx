@@ -24,7 +24,7 @@ const ThemeObras = ({
 }: GrandesObrasProps) => {
   const settings = {
     infinite: true,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     centerMode: true,
     cssEase: "ease",
@@ -47,7 +47,6 @@ const ThemeObras = ({
   return (
     <section className="relative bg-[#18231E] text-white py-16">
       <div className="relative max-w-screen-2xl mx-auto px-4 sm:px-8">
-        {/* Título e descrição */}
         <div className="grid grid-cols-1 gap-6 text-center md:text-left md:grid-cols-2 items-center">
           <div>
             <h1
@@ -64,7 +63,6 @@ const ThemeObras = ({
           </div>
         </div>
 
-        {/* Slider */}
         <div className="relative mt-8">
           <Slider {...settings}>
             {images.map((item, index) => (
@@ -73,11 +71,11 @@ const ThemeObras = ({
                   <img
                     src={item.src}
                     alt={item.title}
-                    className="w-1/2 h-64 sm:h-[400px] object-cover rounded-md"
+                    className="w-auto h-64 sm:h-[400px] object-cover rounded-md mx-auto"
                   />
                 </Link>
                 <div className="text-white text-left">
-                  <h2 className="text-xl sm:text-3xl font-normal font-glonimove mb-2 sm:mb-4">
+                  <h2 className="text-xl  text-center  mt-4 sm:text-3xl font-normal font-glonimove mb-2 sm:mb-4">
                     {item.title}
                   </h2>
                 </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import jaymeImage from "../../../assets/camera-mobile.png"; // Substitua pela imagem correta
 import recording from "../../../assets/recording.png"; // Substitua pela imagem correta
-import decoration1 from "../../../assets/decoration1.png"; // Substitua pela imagem correta
-import decoration2 from "../../../assets/decoration2.png"; // Substitua pela imagem correta
+// import decoration1 from "../../../assets/decoration1.png"; // Substitua pela imagem correta
+// import decoration2 from "../../../assets/decoration2.png"; // Substitua pela imagem correta
 
 const JaymeSection1: React.FC = () => {
   return (
@@ -54,16 +54,16 @@ const JaymeSection1: React.FC = () => {
         />
 
         {/* Ícones decorativos */}
-        <div className="absolute -bottom-10 lg:bottom-4 left-4  sm:block">
+        {/* <div className="absolute -bottom-10 lg:bottom-4 left-4  sm:block">
           <div className="w-12 h-12 bg-red-500 flex items-center justify-center rounded-full">
             <img src={decoration1} alt="" />
           </div>
-        </div>
-        <div className="absolute -bottom-10 lg:bottom-4 right-4  sm:block">
+        </div> */}
+        {/* <div className="absolute -bottom-10 lg:bottom-4 right-4  sm:block">
           <div className="w-12 h-12 bg-red-500 flex items-center justify-center rounded-full">
             <img src={decoration2} alt="" />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -139,7 +139,7 @@ const Section1: React.FC = () => {
       {/* Conteúdo centralizado */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
         <img src={decoration1} className="md:w-6 md: mb-2" />
-        <h1 className="text-4xl md:text-4xl max-w-xl tracking-wide leading-relaxed font-light font-glonimove">
+        <h1 className="text-4xl md:text-4xl max-w-xl  font-normal font-glonimove">
           A capacidade de acreditar é o que torna nossos sonhos reais. Conheça
           os novos projetos e aventuras de Jayme Monjardim.
         </h1>
