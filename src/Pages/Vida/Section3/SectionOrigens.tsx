@@ -65,7 +65,7 @@ const SectionOrigens: React.FC = () => {
       {/* Conteúdo */}
       <div className="w-full md:w-1/2 space-y-8">
         {/* Navbar apenas no Mobile */}
-        <div className="md:hidden flex justify-center gap-4 mb-8">
+        <div className="md:hidden flex flex-col justify-center gap-4 mb-8">
           <button
             className={`py-2 px-4 rounded-md font-glonimove uppercase tracking-wide ${
               activeTab === "Origens"

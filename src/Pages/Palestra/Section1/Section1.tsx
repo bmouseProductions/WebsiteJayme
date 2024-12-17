@@ -141,8 +141,8 @@ const Section1: React.FC = () => {
 
       {/* Conteúdo centralizado */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center">
-        <img src={icons} className="md:w-56 mb-2" />
-        <h1 className="text-3xl p-10 lg:text-4xl max-w-xl font-light font-glonimove tracking-wide leading-relaxed ">
+        <img src={icons} className="md:w-56 mb-2 mt-32" />
+        <h1 className="text-xl p-10 lg:text-4xl  max-w-xl font-light font-glonimove tracking-wide leading-relaxed ">
           A História por trás do Sonho: Como uma jornada de criatividade e
           dedicação podem impulsionar os sonhos
         </h1>

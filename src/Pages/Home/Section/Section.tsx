@@ -17,12 +17,6 @@ const JaymeSection1: React.FC = () => {
           </h1>
           <div className="flex space-x-4 items-center">
             {/* Ícones de navegação */}
-            <button className="w-8 h-8 rounded-full border border-white flex items-center justify-center hover:bg-red-500 transition">
-              &#x276E; {/* Ícone de seta esquerda */}
-            </button>
-            <button className="w-8 h-8 rounded-full border border-white flex items-center justify-center hover:bg-red-500 transition">
-              &#x276F; {/* Ícone de seta direita */}
-            </button>
           </div>
         </div>
 

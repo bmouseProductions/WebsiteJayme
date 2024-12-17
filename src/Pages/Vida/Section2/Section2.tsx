@@ -4,9 +4,9 @@ import LivroMobile from "../../../assets/livro-mobile.png";
 
 const SectionCriadorSonhador: React.FC = () => {
   return (
-    <section className="bg-[#1C2415] text-white py-16 ">
+    <section className="bg-[#1C2415] text-white py-16 px-6">
       {/* Título */}
-      <h2 className="text-center text-6xl md:text-5xl  text-[#FF4A20] uppercase lg:mb-12 font-normal font-glonimove">
+      <h2 className="text-center text-4xl md:text-5xl  text-[#FF4A20] uppercase lg:mb-12 font-normal font-glonimove">
         Criador e Sonhador
       </h2>
 

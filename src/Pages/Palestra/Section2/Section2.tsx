@@ -6,7 +6,7 @@ const HistoriaPorTras: React.FC = () => {
   return (
     <section className="bg-[#1C2415] text-white py-16 ">
       {/* Título */}
-      <h2 className="text-left lg:text-center px-3 lg:px-0 text-6xl md:text-5xl  text-[#FF4A20] uppercase lg:mb-12 font-normal font-glonimove">
+      <h2 className="text-left lg:text-center px-3 lg:px-0 text-2xl md:text-5xl  text-[#FF4A20] uppercase lg:mb-12 font-normal font-glonimove">
         A História por trás do Sonho
       </h2>
 

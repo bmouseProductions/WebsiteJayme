@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../../assets/logo_footer.png"; // Substitua pela nova logo
 import logoFooter from "../../assets/decorationFooter.png";
 import logoMobile from "../../assets/logoMoble.svg";
+import { FaInstagram, FaFacebook } from "react-icons/fa";
 
 const Footer: React.FC = () => {
   return (
@@ -25,31 +26,31 @@ const Footer: React.FC = () => {
         {/* Navegação no mobile */}
         <nav className="flex flex-col md:flex-row space-y-4 md:space-x-6 md:space-y-0 text-sm uppercase text-center md:text-left w-full md:w-auto">
           <a
-            href="#home"
+            href="/"
             className="hover:text-gray-400 transition font-light font-glonimove"
           >
             Home
           </a>
           <a
-            href="#vida"
+            href="/vida"
             className="hover:text-gray-400 transition font-light font-glonimove"
           >
             Vida
           </a>
           <a
-            href="#obras"
+            href="/Obras"
             className="hover:text-gray-400 transition font-light font-glonimove"
           >
             Obras
           </a>
           <a
-            href="#videos"
+            href="/Visao"
             className="hover:text-gray-400 transition font-light font-glonimove"
           >
-            Vídeo
+            Visão
           </a>
           <a
-            href="/Palestras"
+            href="/Palestra"
             className="hover:text-gray-400 transition font-light font-glonimove"
           >
             Palestras
@@ -82,9 +83,9 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Redes sociais */}
-        <div className="flex flex-col items-center md:items-end space-y-4 text-center md:text-right">
-          <p className="text-sm">INSTAGRAM</p>
-          <p className="text-sm">FACEBOOK</p>
+        <div className="flex flex-col md:flex-row gap-4 items-center md:items-end space-y-4 mt-10 sm:mt-0  text-center md:text-right">
+          <FaInstagram className="text-white text-2xl hover:text-orange-500" />
+          <FaFacebook className="text-white text-2xl hover:text-orange-500" />
         </div>
       </div>
 
