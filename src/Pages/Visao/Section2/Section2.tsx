@@ -15,7 +15,7 @@ const OndeQueremosChegar: React.FC = () => {
         <img
           src={quero} // Substitua pelo caminho correto da imagem
           alt="Jayme Monjardim"
-          className="w-full container rounded-md  border-4 border-[#13633E] hidden lg:block"
+          className="w-full container rounded-md   hidden lg:block"
         />
       </div>
 
