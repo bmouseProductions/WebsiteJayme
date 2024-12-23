@@ -14,7 +14,7 @@ const Section1: React.FC = () => {
       {/* Vídeo de fundo */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="https://s3-figma-videos-production-sig.figma.com/video/1343982015119693441/TEAM/9ff3/61de/-9e72-413e-beb2-e1edaa5bfc61?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LbqIRGzFU8GKzrOeuyRvbH4eOo4Hi6RSPBIg4SMeDcDkeRJhwdie13~XlXQYBHz3A0lr3xkxSMxCpkMD5naWmO11sDVQHnxOz-CzgvnMD63tCZvs6kPixoV8si-G4q5EQWMDzKQ0Y6cHSwpmpxzBspVlHWoEWGElZy8iqwa8Ye7065LzRoNoWhRWn2BoCuoK-2FrDY9CfoMmCHHUp1kpsOZ~aQv0YnUyes2Bzly24Qo1VD5aazrhnGqcremKnnERCcNtq59N8UBJ-RViy2GWdlxeu3EwYNiVNBqJkUz-KPcXV~Z2sOv33m~iwi26quu-mU6PHP4qp63Xx1x0TJfoRQ__"
+        src="https://s3-figma-videos-production-sig.figma.com/video/1343982015119693441/TEAM/9ff3/61de/-9e72-413e-beb2-e1edaa5bfc61?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MdjQ8SPlBfLuZrAbPCm8YBZAZtIZ3siBYz44ncmKvhfPGMnBbxQUj6nJ0E5oQ5Nle8cGBIOCp60ASy4GGEF-CpBNqQ9jjwYUAHeqX6I7G~ov8YnsjoAzR~a3GpyhI0-WCmL1loynrw6RmYPRfbTY8BAxXaHQY2MzJsbUsndesMoIedsseGXHCwWfSkZzG-ok-vnTYvSKcG0giGATwqlO1PSxSoH9jXIEepICdwY47JI6VKq6IKEoCOSGTEQ-9-K30M6FNSASc-GVfyDXPTjFaXveX7ryupwORcZ8bMinvfR19Ivva18nxDiUrxOWGS5d1UpQHrIRfGv76tnLnpEFQQ__"
         autoPlay
         loop
         muted
@@ -146,11 +146,11 @@ const Section1: React.FC = () => {
           A História por trás do Sonho: Como uma jornada de criatividade e
           dedicação podem impulsionar os sonhos
         </h1>
-        <div className="flex flex-wrap gap-5 justify-center mt-10 lg:-mb-56">
+        {/* <div className="flex flex-wrap gap-5 justify-center mt-10 lg:-mb-56">
           <img src={palestra1} className="rounded-lg w-32 md:w-80" />
           <img src={palestra2} className="rounded-lg w-32 md:w-80" />
           <img src={palestra3} className="rounded-lg w-32 md:w-80" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

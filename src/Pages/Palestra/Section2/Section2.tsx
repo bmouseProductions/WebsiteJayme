@@ -6,38 +6,43 @@ const HistoriaPorTras: React.FC = () => {
   return (
     <section className="bg-[#1C2415] text-white py-16 ">
       {/* Título */}
-      <h2 className="text-left lg:text-center px-3 lg:px-0 text-2xl md:text-5xl  text-[#FF4A20] uppercase lg:mb-12 font-normal font-glonimove">
-        A História por trás do Sonho
+      <h2 className="text-left  mx-auto lg:text-center px-3 lg:px-0 text-2xl md:text-2xl  text-[#FF4A20] uppercase lg:mb-12 font-normal font-glonimove">
+        A trajetória de um dos maiores diretores do Brasil em palestras que unem
+        arte, emoção e propósito, inspirando pessoas e profissionais a sonharem
+        grande e alcançarem o extraordinário.
       </h2>
 
       {/* Imagem do autor */}
-      <div className="flex justify-center lg:mb-8">
+      {/* <div className="flex justify-center lg:mb-8">
         <img
           src={historia} // Substitua pelo caminho correto da imagem
           alt="Palestra"
           className="w-full container rounded-md   hidden lg:block"
         />
-      </div>
+      </div> */}
 
       {/* Texto */}
       <div className="container px-4   lg:px-0 mx-auto lg:text-left space-y-12 text-lg md:text-xl py-10 leading-relaxed font-extralight font-glonimove">
-        <p>
-          Jayme Monjardim traz luz aos seus dramas com um olhar único e mágico.
-          Há 37 anos é diretor da Rede Globo, onde já dirigiu mais de 21 novelas
-          e 11 minisséries. Também é cineasta, e sua estreia nos telões foi com
-          o longa-metragem “Olga”.
+        <p className="font-bold">
+          Uma jornada que fala sobre emoções e gera inspirações.
         </p>
         <p>
-          Através do universo feminino, Jayme transmite força e poder por meio
-          das suas protagonistas. Personagens que além de serem referências e
-          inspirações, exalam sensibilidade e representam um forte movimento de
-          liderança.
+          Com uma trajetória única, Jayme Monjardim é um dos diretores mais
+          icônicos do Brasil, responsável por obras que marcaram a história da
+          televisão e emocionaram milhões. Filho de Maysa, herdeiro das raízes
+          da família Matarazzo e com uma carreira que atravessa fronteiras,
+          Jayme traz em suas palestras vivências pessoais e profissionais que
+          inspiram em qualquer área.
         </p>
         <p>
-          Liderar por si só, Jayme Monjardim é emoção. A magia de suas criações
-          movem seu propósito de dar vida aos sonhos. O Dream Creator resgata, a
-          magnitude de cada um e estimula da nunca parar de tentar. E como diz
-          Walt Disney, “Se você pode sonhar, você pode realizar”.
+          <ul className="list-disc">
+            <li>40 anos de carreira e experiência na direção artística.</li>
+            <li>Obras que emocionaram e se tornaram patrimônios nacionais.</li>
+            <li>
+              Histórias de superação, conexão com as raízes e transformação
+              pessoal.
+            </li>
+          </ul>
         </p>
       </div>
 

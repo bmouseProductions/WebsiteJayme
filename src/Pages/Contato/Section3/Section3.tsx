@@ -10,7 +10,7 @@ import video from "../../../assets/header.mp4";
 
 const RedesSociaisSection: React.FC = () => {
   return (
-    <section className="bg-[#112011] text-white py-16 px-4 md:px-24 relative">
+    <section className="bg-[#1C2415] text-white py-16 px-4 md:px-24 relative">
       <div className="relative lg:w-3/4 mx-auto">
         {/* Texto sobreposto */}
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center z-10">
