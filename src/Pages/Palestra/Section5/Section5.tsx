@@ -55,10 +55,8 @@ const SuasObras = () => {
 
           <div>
             <p className="text-lg leading-relaxed font-normal font-glonimove">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea
-              officiis molestiae rem vero! Hic sunt laboriosam, voluptate in
-              labore, eveniet repudiandae architecto itaque explicabo omnis
-              quod!
+              Conheça outras histórias marcantes, que tocaram profundamente a
+              memória e o coração do público.
             </p>
             <button className="bg-transparent text-white py-2 px-4 rounded-full border-2 border-white lg:mt-5">
               Saiba Mais

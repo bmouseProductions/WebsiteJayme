@@ -15,7 +15,7 @@ const HistoriaPorTras: React.FC = () => {
         <img
           src={historia} // Substitua pelo caminho correto da imagem
           alt="Palestra"
-          className="w-full container rounded-md  border-4 border-[#13633E] hidden lg:block"
+          className="w-full container rounded-md   hidden lg:block"
         />
       </div>
 
@@ -52,7 +52,7 @@ const HistoriaPorTras: React.FC = () => {
       {/* Imagem inferior */}
       <div className="flex justify-center mt-12">
         <video
-          src="https://s3-figma-videos-production-sig.figma.com/video/1343982015119693441/TEAM/bcb4/9cc7/-fa0f-4814-86fc-5d24e4eef65c?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AOvi8wM1cOswiudQbbvq1SCz4Gh6sLr-Pk7STDvGNQupXvVkV4jkvhF3U57vLe6bf7Llu7ySGF9k5-l2qgXKYT4Bhtvyt7dKM3VZENWwi9C0k4COFnGJFTk50a7mkKYo45i8zGnnVRTifd0thlfwtB5v-iiJAmi7BkShcLMXiUBZkqz-b0QLMyXgrS-fWns8m7q7kTJG65v0ptQWr1hWLdU4NC8cAH7pq--DLLmwSzWQzXmUAaY-umt9DS4DhJywi~KQGg12XD8y-ze1fq58mJaNDdbAs2TLOCkUKDiI8yfbsomTc7gdQExcijeV1fLw~mKURqGCERErcACl8AELhQ__"
+          src="https://s3-figma-videos-production-sig.figma.com/video/1343982015119693441/TEAM/bcb4/9cc7/-fa0f-4814-86fc-5d24e4eef65c?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ftoOq5FDwJmo78XSleeE-GT5nunkBM1KxwEa~FCz270baQbVXMpHb0EefrD9CDBoL9alYAvFAgQ7GQD0BGrHNoFS4nyARwbUrL3tOca2Qh1jDy3ADYxA33kdZZvxr6Zfjzznre3qkqBxrb8nczHGe0E07DJMCAT~kvsAAd90WjJaK3FHeb0ll8wxLAYQhCJS3JEwxf58HOrDPO989Mx2zaHGEaAzU1-0G1GhDb6aJMQjeqSDXd9IKUAJIyIeuFvgDLWmArPrgtYkoOWbTv-hZ5TbrwFFfoFdrdy1eQii8gWEJcb~-QxSCr-iki1P-Onob7cCDhAQ2SG8fIKLiCV1DQ__"
           autoPlay
           loop
           muted

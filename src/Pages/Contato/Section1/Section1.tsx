@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../../../assets/logo.png";
+import video from "../../../assets/header.mp4";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa"; // Usando react-icons para os ícones
 
 const Section1: React.FC = () => {
@@ -10,7 +11,7 @@ const Section1: React.FC = () => {
       {/* Vídeo de fundo */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="https://s3-figma-videos-production-sig.figma.com/video/1343982015119693441/TEAM/d014/ead5/-3fbc-4153-a7f2-da0e8d1eb8ff?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qWIeE9glM6Bw9F5YxLYMGUe-M7t~cjcmVbVwI6hREqhcB0Y2uI5WWnTfdeZatAGwDqqAFp4XrEcyG1WY-t09szsATLd8whDyWlOsW19N900y3NKF4AN8PRyXSKwFeUyGNUObEpitq9K0pkLOgOUZ5xOLCYPaM7R0cgVHWAPVQWbibJ5ABzUp7dcITr4j67LhiDXTdpTcmfFtHV0iRbQM-w12xuoQT52ScwUt2zr2tDGTzetwSsv1OzAZjQNvsNeYHvKqxJ4JEVP6nNkGmtMq8rmC9OEp9v37Irso4xR1za9Z-su-aCIHALID15T0LRK6V5mlfg3kc~a1fc2pdWTuew__"
+        src={video}
         autoPlay
         loop
         muted

@@ -55,10 +55,8 @@ const SuasObrasContato = () => {
 
           <div>
             <p className="text-lg leading-relaxed font-normal font-glonimove">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea
-              officiis molestiae rem vero! Hic sunt laboriosam, voluptate in
-              labore, eveniet repudiandae architecto itaque explicabo omnis
-              quod!
+              Conheça outras histórias marcantes, que tocaram profundamente a
+              memória e o coração do público.
             </p>
             <button className="bg-transparent text-white py-2 px-4 my-10 rounded-full border-2 border-white lg:mt-5">
               Saiba Mais
@@ -76,7 +74,7 @@ const SuasObrasContato = () => {
               />
               <div className="absolute bottom-8 left-8 text-white text-left">
                 <h2 className="text-3xl mb-4 font-normal font-glonimove">
-                  Longas Séries
+                  Novelas
                 </h2>
                 <button className="bg-[#E0471E] rounded-full text-white py-2 px-4 font-semibold font-glonimove">
                   Saiba Mais
@@ -91,7 +89,7 @@ const SuasObrasContato = () => {
               />
               <div className="absolute bottom-8 left-8 text-white text-left">
                 <h2 className="text-3xl mb-4 font-normal font-glonimove">
-                  Mini séries
+                  Minisséries e Séries
                 </h2>
                 <button className="bg-[#E0471E] rounded-full text-white py-2 px-4 font-semibold font-glonimove">
                   Saiba Mais
