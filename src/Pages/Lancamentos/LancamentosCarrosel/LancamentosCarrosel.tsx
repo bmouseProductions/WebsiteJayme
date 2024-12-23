@@ -6,7 +6,7 @@ const LancamentosCarrossel = () => {
   const data = {
     title: "Lançamentos",
     description:
-      "Jayme Monjardim traz luz às suas obras com um olhar único e mágico. Há 37 anos é diretor da Rede Globo, onde já dirigiu mais de 21 novelas e 11 minisséries.",
+      "Histórias que se renovam com a marca de Jayme Monjardim. Descubra as criações mais recentes que continuam emocionando e surpreendendo o público.",
     themeColor: "#E0471E",
     images: [
       { src: AventalRosa, title: "O avental rosa", url: "/o-avental-rosa" },

@@ -32,7 +32,7 @@ const Maysa: React.FC = () => {
       />
       <WorkDetails
         title="Maysa: Quando Fala O Coração"
-        synopsis="Sucesso absoluto de audiência, em “Maysa – Quando fala o Coração” Jayme Monjardim traz para as telas, a vida de sua mãe. Maysa emocionou o público, com a história de um dos maiores ícones da música nacional. Intensa, ousada, transgressora, mas também sensível, romântica e talentosa, ela era uma só em muitas. Em tudo que fez nos palcos e fora dele seguiu seu coração. Maysa, quebrou paradigmas, lutou pelos seus sonhos e se tornou uma das maiores cantoras do Brasil. "
+        synopsis="Sucesso absoluto de audiência, em “Maysa – Quando fala o Coração” Jayme Monjardim traz para as telas a vida de sua mãe. A minissérie emocionou o público com a história de um dos maiores ícones da música nacional. Intensa, ousada, transgressora, mas também sensível, romântica e talentosa, ela era muitas em uma só. Em tudo que fez nos palcos, e fora deles, Maysa seguiu seu coração, quebrou paradigmas, lutou pelos seus sonhos e se tornou uma das maiores cantoras do Brasil."
         image={maysa}
         technicalDetails={technicalDetails}
       />

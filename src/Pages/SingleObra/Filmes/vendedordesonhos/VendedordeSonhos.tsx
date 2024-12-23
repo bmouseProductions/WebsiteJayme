@@ -32,7 +32,7 @@ const Vendedor: React.FC = () => {
       />
       <WorkDetails
         title="O Vendedor de Sonhos"
-        synopsis="O filme, adaptação do livro homônimo de Augusto Cury, relata a história do renomado Júlio César e de sua tentativa de suicídio, interrompida, a tempo, pelo chamado “Mestre”.  A trama aborda temáticas como sonhos, esperança, fazendo uma crítica a sociedade atual e seu direcionamento."
+        synopsis="O filme é uma adaptação do livro homônimo de Augusto Cury, que relata a história do renomado Júlio César e de sua tentativa de suicídio, interrompida a tempo pelo chamado “Mestre”. A trama aborda temáticas como sonhos, esperança, fazendo uma crítica a sociedade atual e seu direcionamento."
         image={vendedorDeSonhos}
         technicalDetails={technicalDetails}
       />

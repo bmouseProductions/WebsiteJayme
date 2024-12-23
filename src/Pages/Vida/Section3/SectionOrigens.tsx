@@ -9,16 +9,11 @@ const SectionOrigens: React.FC = () => {
         return (
           <div className="mb-10">
             <p className="leading-relaxed font-extralight font-glonimove">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              tincidunt sapien eget facilisis sagittis. Nullam purus enim,
-              suscipit a facilisis eu, pretium sit amet est. Aenean rutrum risus
-              mauris, sit amet euismod eros interdum quis.
-            </p>
-            <p className="leading-relaxed font-extralight font-glonimove">
-              Phasellus ultricies lorem in viverra convallis. Proin sodales
-              sapien vel metus ultrices scelerisque. Etiam malesuada tortor
-              quam, ut convallis velit porttitor dictum. Cras molestie
-              pellentesque massa, vitae pellentesque nisi pharetra a.
+              Jayme Monjardim carrega em seu DNA a força de dois legados
+              poderosos: a tradição ítalo-brasileira dos Matarazzo e a história
+              nobre dos Monjardim, do Espírito Santo. Filho da icônica cantora
+              Maysa e do empresário André Matarazzo, ele é herdeiro de uma
+              história que combina arte, liderança e visão.
             </p>
           </div>
         );
@@ -26,15 +21,11 @@ const SectionOrigens: React.FC = () => {
         return (
           <div className="mb-10">
             <p className="leading-relaxed font-extralight font-glonimove">
-              Fusce in sem bibendum, mollis erat eu, consectetur odio. Curabitur
-              euismod arcu vitae pharetra vestibulum. Nulla aliquam molestie
-              arcu eu pharetra. Sed posuere orci non libero interdum, vitae
-              suscipit odio auctor.
-            </p>
-            <p className="leading-relaxed font-extralight font-glonimove">
-              Vivamus eget nibh in neque hendrerit rhoncus ut vitae risus.
-              Maecenas ultrices tellus a eros porttitor, vel ultricies ipsum
-              aliquet.
+              Com uma trajetória marcada pela emoção e pela sensibilidade, Jayme
+              Monjardim dirigiu sucessos como Terra Nostra, A Casa das Sete
+              Mulheres, Páginas da Vida, O Clone e Maysa - Quando Fala o
+              Coração. Sua arte atravessa décadas, unindo gerações ao redor de
+              histórias que capturam o coração e a alma.
             </p>
           </div>
         );
@@ -42,13 +33,12 @@ const SectionOrigens: React.FC = () => {
         return (
           <div className="mb-10">
             <p className="leading-relaxed font-extralight font-glonimove">
-              Aliquam erat volutpat. Vivamus vel lectus eros. Donec vehicula
-              justo vel tincidunt suscipit. Ut dignissim congue nisl, at
-              lobortis purus pulvinar in.
-            </p>
-            <p className="leading-relaxed font-extralight font-glonimove">
-              Nulla facilisi. Etiam eget felis eget elit malesuada congue at
-              vitae tortor. Cras venenatis ligula a libero euismod consequat.
+              Hoje, Jayme Monjardim continua movido pela arte, na direção da
+              nova novela da Rede Bandeirantes, “Romaria”, desenvolvendo
+              projetos que carregam o nome Matarazzo e compartilhando sua
+              experiência em palestras inspiradoras. Entre câmeras e palavras,
+              ele segue contando histórias que emocionam e conectam, sempre com
+              a essência de um verdadeiro Dream Creator.
             </p>
           </div>
         );

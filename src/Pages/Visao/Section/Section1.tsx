@@ -11,7 +11,7 @@ const Section1: React.FC = () => {
       {/* Vídeo de fundo */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="https://s3-figma-videos-production-sig.figma.com/video/1343982015119693441/TEAM/a922/c5e1/-0e49-4e23-ab8d-bb8a8236b84e?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KyywQnQs7i2wg21vWyPyYVYsTj6VdQVKMk0TISi0rWYl6UraJ2IyFuGRmjXEKYxGjS4-5kfK3jL3basJLu3ABfyRYP17MKcs5iHKrg1DZw4k53BqWk2IfnaYzA6~Fv4jIP4F1nhG1MdTe9FMHkaMk4u~gXY1Uty5QjV6dQ0VjTfbYRxOICgeSTns2EUttIYu9O46JgArgt8wlnDZAG~EczPBoYdg5PUDvd~somMzk6XYTYp6bd-Dnfc1tGHaVrtR19ZzlL89Ys8Z4f8BtHAwfPsoCT~CgZnXNnYsOSHuCY-CGnMnj12Grv-VJC0QEucl8WSwhr43tmWzilMiWzQS5Q__"
+        src="https://s3-figma-videos-production-sig.figma.com/video/1343982015119693441/TEAM/a922/c5e1/-0e49-4e23-ab8d-bb8a8236b84e?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IIhsdb351j7DRWcnQA8jyHPDRHmjQ3NBkG6UpvbXIbHG2Vs55Qy04Z3DzIjViZ39wxcjSkDVMJgaPzg9LefLkPzSE3ZBMnFx9yJH4UAA5nve6K~BUkqJXFBeUyHlhcjiagbyBbNcFksgB9JEoW~h3Cbhiw1k0u7U7XLRfJPcEnIAUAtU4zJedlwyuYSV7jgdkgvvi3hPakKLP5z73oMvC539k1rCoFZlkbwIlo2P~bNZ2p40WByyMtJG9aK~canYtWJTij3118jdnSgzyxPx6HoZb15X5lV6Ctvo4ZS3Kg2eZcDB5wQFhh1rocWasYKDPcWJMx03Jj9Pc4kUtkhHhw__"
         autoPlay
         loop
         muted
@@ -140,8 +140,7 @@ const Section1: React.FC = () => {
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
         <img src={decoration1} className="md:w-6 md: mb-2" />
         <h1 className="text-4xl md:text-4xl max-w-xl  font-normal font-glonimove">
-          A capacidade de acreditar é o que torna nossos sonhos reais. Conheça
-          os novos projetos e aventuras de Jayme Monjardim.
+          A capacidade de acreditar é o que torna nossos sonhos reais.
         </h1>
       </div>
     </div>

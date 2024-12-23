@@ -8,7 +8,7 @@ const Filme = () => {
   const data = {
     title: "Filmes",
     description:
-      "Jayme Monjardim traz luz às suas obras com um olhar único e mágico. Há 37 anos é diretor da Rede Globo, onde já dirigiu mais de 21 novelas e 11 minisséries.",
+      "Do cinema para o coração. Jayme transporta sua visão sensível para a telona, criando obras que permanecem vivas na memória.",
     themeColor: "#E0471E",
     images: [
       {

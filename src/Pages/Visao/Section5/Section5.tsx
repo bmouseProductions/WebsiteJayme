@@ -56,8 +56,7 @@ const InspirationSection: React.FC = () => {
           <p className="text-lg leading-8 mb-4 font-extralight font-glonimove">
             Com a proporção que a internet tomou e a explosão das redes sociais,
             todos conquistamos a incrível possibilidade de tornar nosso legado
-            em algo palpável, acessível… algo compartilhável. nunca parar de
-            tentar.
+            em algo palpável, acessível… algo compartilhável.
           </p>
           <p className="text-lg leading-8 mb-4 font-extralight font-glonimove">
             Entretanto, apenas compartilhar minhas histórias, sem um propósito,
@@ -84,9 +83,8 @@ const InspirationSection: React.FC = () => {
           <p className="text-lg leading-8 mb-4 font-extralight font-glonimove">
             Inovar é um caminho sem volta. É uma força que move o mundo e que
             nos permitiu chegar a este momento. Como criador, estou sempre
-            buscando me reinventar, mas sem nunca perder minha essência.
-            Contagiar com a arte e propósito de dar vida aos sonhos.  educar com
-            histórias move meu.
+            buscando me reinventar, mas sem nunca perder minha essência,
+            contagiar com a arte, e propósito, que é dar vida aos sonhos.
           </p>
           <p className="text-lg leading-8 mb-4 font-extralight font-glonimove">
             Vamos sonhar juntos?

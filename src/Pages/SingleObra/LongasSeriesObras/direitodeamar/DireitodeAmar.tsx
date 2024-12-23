@@ -33,7 +33,7 @@ const Direito: React.FC = () => {
       />
       <WorkDetails
         title="Direito de Amar"
-        synopsis="A trama foi baseada na radionovela Noiva das Trevas, de Janete Clair, escrita nos anos 50. Direito de Amar, abordou a disputa de um amor entre pai e filho. Para salvar-se da falência o pai de Rosário promete a mão da filha para um banqueiro. No entanto, Rosalia se apaixona por Adriano, em um baile de máscaras, sem saber que ele é filho do banqueiro que ela está prometida. A história se inspira no mote universal da luta entre pai e filho pelo amor de uma mulher."
+        synopsis="A trama foi baseada na radionovela Noiva das Trevas, de Janete Clair, escrita nos anos 50. Direito de Amar, abordou a disputa de um amor entre pai e filho. Para salvar-se da falência, o pai de Rosália promete a mão da filha para um banqueiro. No entanto, Rosália se apaixona por Adriano, em um baile de máscaras, sem saber que ele é filho do banqueiro para quem ela está prometida. A história se inspira no mote universal da luta entre pai e filho pelo amor de uma mulher."
         image={DireitoDeAmar}
         technicalDetails={technicalDetails}
       />

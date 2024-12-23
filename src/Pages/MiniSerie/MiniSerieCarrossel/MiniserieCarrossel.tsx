@@ -6,9 +6,9 @@ import ThemeObras from "../../../components/ThemeObras/ThemeObras";
 
 const MiniSeries = () => {
   const data = {
-    title: "Mini Séries",
+    title: "Minisséries e Séries",
     description:
-      "Jayme Monjardim traz luz às suas obras com um olhar único e mágico. Há 37 anos é diretor da Rede Globo, onde já dirigiu mais de 21 novelas e 11 minisséries.",
+      "Narrativas intensas e inesquecíveis, onde cada detalhe conduz o espectador a mundos repletos de sentimento e verdade.",
     themeColor: "#E0471E",
     images: [
       {

@@ -24,10 +24,12 @@ const GrandesObrasSection: React.FC = () => {
           {/* Direita: Texto */}
           <div>
             <p className="text-lg leading-relaxed font-glonimove">
-              Jayme Monjardim traz luz às suas obras com um olhar único e
-              mágico. Há 37 anos é diretor da Rede Globo, onde já dirigiu mais
-              de 21 novelas e 11 minisséries. Também é cineasta, e sua estreia
-              nas telonas foi com o longa-metragem "Olga"...
+              Com mais de 21 novelas e 11 minisséries, além de obras memoráveis
+              como Olga, Jayme Monjardim construiu um legado onde a força e a
+              sensibilidade do universo feminino ganham vida. Histórias que
+              emocionam, como Terra Nostra, A Casa das Sete Mulheres e O Clone,
+              refletem sua essência artística. Jayme Monjardim ilumina histórias
+              com sua sensibilidade única.
             </p>
           </div>
         </div>

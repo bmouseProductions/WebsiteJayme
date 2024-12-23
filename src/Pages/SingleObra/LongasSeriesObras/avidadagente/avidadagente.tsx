@@ -37,7 +37,7 @@ const Avidadagente: React.FC = () => {
       />
       <WorkDetails
         title="A Vida da Gente"
-        synopsis="Movida pelo amor familiar, a novela “A Vida da Gente” narra a história de uma linda amizade entre duas irmãs e um amor em comum. Ana engravida, mas tem um acidente que a deixa em coma e Manu, sua irmã passa a cuidar da sua sobrinha com Rodrigo. Da convivência nasce uma paixão. Quando Ana sai do coma, existe um triângulo amoroso e um conflito que eles não poderiam imaginar."
+        synopsis="Movida pelo amor familiar, a novela “A Vida da Gente” narra a história de uma linda amizade entre duas irmãs e um amor em comum. Ana engravida, mas tem um acidente que a deixa em coma, e Manu, sua irmã, passa a cuidar da sua sobrinha com Rodrigo. Da convivência nasce uma paixão. Quando Ana sai do coma, existe um triângulo amoroso e um conflito que eles não poderiam imaginar."
         image={aVidadaGente}
         technicalDetails={technicalDetails}
       />

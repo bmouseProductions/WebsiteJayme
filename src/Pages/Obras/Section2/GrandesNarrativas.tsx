@@ -24,13 +24,16 @@ const GrandesNarrativas = () => {
             GRANDES NARRATIVAS.
           </h1>
           <p className="text-base sm:text-xl lg:text-2xl leading-relaxed mb-4 font-extralight font-glonimove  md:text-left">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu
-            odio dolor. Duis dictum feugiat ligula in faucibus. Lectus venenatis
-            sed. Duis convallis elit ut nulla condimentum fringilla.
+            Contar histórias é dar vida a sentimentos que muitas vezes
+            permanecem ocultos, esperando um olhar que os traduza em palavras,
+            imagens e emoção. Cada obra que dirigi foi mais do que um projeto;
+            foi uma jornada compartilhada com os personagens e o público.
           </p>
           <p className="text-base sm:text-xl lg:text-2xl leading-relaxed font-extralight font-glonimove  md:text-left">
-            Praesent eu sapien sodales, pretium dolor ut, facilisis nunc. Sed
-            rhoncus mattis posuere. Duis odio purus, hendrerit porta ante non.
+            Acredito que grandes histórias não apenas entretêm, mas aproximam as
+            pessoas de si mesmas, de suas dores, sonhos e possibilidades. Elas
+            têm o poder de transformar, de fazer o coração bater mais forte, de
+            inspirar.”
           </p>
         </div>
       </div>

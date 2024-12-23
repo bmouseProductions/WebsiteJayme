@@ -12,9 +12,9 @@ import ThemeObras from "../../../components/ThemeObras/ThemeObras";
 
 const LongasSeries = () => {
   const data = {
-    title: "Longas Series",
+    title: "Novelas",
     description:
-      "Jayme Monjardim traz luz às suas obras com um olhar único e mágico. Há 37 anos é diretor da Rede Globo, onde já dirigiu mais de 21 novelas e 11 minisséries.",
+      "Tramas que marcaram gerações e uniram famílias. Jayme transforma o cotidiano em arte, trazendo emoção a cada capítulo.",
     themeColor: "#E0471E",
     images: [
       { src: tempodeamor, title: "Tempo de Amar", url: "/tempo-de-amar" },
