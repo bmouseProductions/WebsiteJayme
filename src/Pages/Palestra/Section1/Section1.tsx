@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import palestra1 from "../../../assets/palestra1.png";
-import palestra2 from "../../../assets/palestra2.png";
-import palestra3 from "../../../assets/palestra3.png";
+// import palestra1 from "../../../assets/palestra1.png";
+// import palestra2 from "../../../assets/palestra2.png";
+// import palestra3 from "../../../assets/palestra3.png";
 import logo from "../../../assets/logo.png";
 import icons from "../../../assets/all-icons.png";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa"; // Usando react-icons para os ícones

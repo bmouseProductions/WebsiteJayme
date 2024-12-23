@@ -1,5 +1,5 @@
 import React from "react";
-import historia from "../../../assets/historia.png";
+// import historia from "../../../assets/historia.png";
 import palestraMobile from "../../../assets/palestra-mobile.png";
 
 const HistoriaPorTras: React.FC = () => {
