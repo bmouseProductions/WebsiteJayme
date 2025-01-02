@@ -14,7 +14,7 @@ const Section1: React.FC = () => {
       {/* Vídeo de fundo */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="https://s3-figma-videos-production-sig.figma.com/video/1343982015119693441/TEAM/9ff3/61de/-9e72-413e-beb2-e1edaa5bfc61?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MdjQ8SPlBfLuZrAbPCm8YBZAZtIZ3siBYz44ncmKvhfPGMnBbxQUj6nJ0E5oQ5Nle8cGBIOCp60ASy4GGEF-CpBNqQ9jjwYUAHeqX6I7G~ov8YnsjoAzR~a3GpyhI0-WCmL1loynrw6RmYPRfbTY8BAxXaHQY2MzJsbUsndesMoIedsseGXHCwWfSkZzG-ok-vnTYvSKcG0giGATwqlO1PSxSoH9jXIEepICdwY47JI6VKq6IKEoCOSGTEQ-9-K30M6FNSASc-GVfyDXPTjFaXveX7ryupwORcZ8bMinvfR19Ivva18nxDiUrxOWGS5d1UpQHrIRfGv76tnLnpEFQQ__"
+        src="https://s3-figma-videos-production-sig.figma.com/video/1343982015119693441/TEAM/9ff3/61de/-9e72-413e-beb2-e1edaa5bfc61?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MtJjnDhkxVlzgyZxnf~x822GHqZ6H0ptgZqCimudwIeQoCEv1cSurNbUW6daU7hU4ZoGeMxpUhXj196RzVWyjzvGVpwm-MyesDUXWCQzGyUM8W7JRs-Md4ima6xe2R5vZLrCULBNzpWyFx98AesIhmQfzHTY1JBz1n~8yMZ1zpxrRGtE0TjoD~hbQX6w-Ve1OsDx2ra6pEOsUCguLWPqkGR1cl2odNlep-wGbcWmRKtfbJUD~8g2OXG5Le9K74YxUvyqvUVB6qQfb6Mdd-XdMbphvfKrRgTaJeUnq7ufDjtI0XyioFRNWhm9~EWmiXrL16tKvnoQaSSnfk5JkLtxxg__"
         autoPlay
         loop
         muted
