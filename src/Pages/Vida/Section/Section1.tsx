@@ -7,9 +7,9 @@ const Section1: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="relative h-screen overflow-hidden">
+    <div className="relative h-screen overflow-hidden bg-[#1C2415]">
       {/* Vídeo de fundo */}
-      <div className="  ]">
+      <div className="">
         <iframe
           src="https://player.vimeo.com/video/1043489224?h=428b792c1c&autoplay=1&loop=1&muted=1&controls=0&badge=0&autopause=0&player_id=0&app_id=58479"
           allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
