@@ -9,14 +9,12 @@ const Section1: React.FC = () => {
   return (
     <div className="relative h-screen overflow-hidden">
       {/* Vídeo de fundo */}
-      <video
+      <iframe
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="https://s3-figma-videos-production-sig.figma.com/video/1343982015119693441/TEAM/d014/ead5/-3fbc-4153-a7f2-da0e8d1eb8ff?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZCikEl60S~ElQnwaQYqRmOo2~ShXZQEAoWUMgPVjc2oYvE2sdce2UX7rs3E9MzdjAWvGtVthYUX4VkMLZmwK61sYQS~dib9uPA~VXKJ8oRz7EVC2U7bJTk2bW0o~0hDS7R65hCodHoeFbVcB2YwqvI3rM0qLxEznDhGiNO33Uv~JsNvqFj1IyUpsZVP3rh8geb5OekvmYtjYVjasZId30fHaWp92HD9kH5-LWQ6Jnj9y3rYtQpiSn7MtiO8imwK9TGYRNQzMTG1xDZjwvJdnMAIl1XKV2BPB1MszRZEonooWFX4~xksaVpy0jpL8Eeoq9Oe8x1uTH7icJZsfPW2TGQ__"
-        autoPlay
-        loop
-        muted
-        playsInline
-      ></video>
+        src="https://www.youtube.com/embed/R6BTZweK-1k?autoplay=1&loop=1&mute=1&playlist=R6BTZweK-1k"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      ></iframe>
 
       {/* Overlay escurecido para dar contraste */}
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
