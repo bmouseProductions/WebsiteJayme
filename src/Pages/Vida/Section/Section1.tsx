@@ -9,12 +9,14 @@ const Section1: React.FC = () => {
   return (
     <div className="relative h-screen overflow-hidden">
       {/* Vídeo de fundo */}
-      <iframe
-        className="absolute top-0 left-0 w-full h-full object-cover"
-        src="https://www.youtube.com/embed/R6BTZweK-1k?autoplay=1&loop=1&mute=1&playlist=R6BTZweK-1k"
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      ></iframe>
+      <div className="  ]">
+        <iframe
+          src="https://player.vimeo.com/video/1043489224?h=428b792c1c&autoplay=1&loop=1&muted=1&controls=0&badge=0&autopause=0&player_id=0&app_id=58479"
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+          className="absolute top-0 left-0 w-full h-full object-cover"
+          title="-3fbc-4153-a7f2-da0e8d1eb8ff"
+        ></iframe>
+      </div>
 
       {/* Overlay escurecido para dar contraste */}
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
