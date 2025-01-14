@@ -29,6 +29,7 @@ import Vendedor from "./Pages/SingleObra/Filmes/vendedordesonhos/VendedordeSonho
 import Tempo from "./Pages/SingleObra/Filmes/tempoeovento/TempoEoVento.tsx";
 import Olga from "./Pages/SingleObra/Filmes/Olga/Olga.tsx";
 import Avental from "./Pages/SingleObra/Lancamentos/Avental/Avental.tsx";
+import Romaria from "./Pages/SingleObra/Lancamentos/romaria/Romaria.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -61,6 +62,7 @@ createRoot(document.getElementById("root")!).render(
           <Route path="/o-tempo-e-o-vento" element={<Tempo />} />
           <Route path="/Olga" element={<Olga />} />
           <Route path="/o-avental-rosa" element={<Avental />} />
+          <Route path="/romaria" element={<Romaria />} />
         </Routes>
       </main>
       <Footer />

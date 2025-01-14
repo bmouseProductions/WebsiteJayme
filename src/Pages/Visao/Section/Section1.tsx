@@ -7,16 +7,16 @@ const Section1: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="relative h-screen overflow-hidden">
+    <div className="relative h-screen overflow-hidden bg-[#1C2415]">
       {/* Vídeo de fundo */}
-      <video
-        className="absolute top-0 left-0 w-full h-full object-cover"
-        src="https://s3-figma-videos-production-sig.figma.com/video/1343982015119693441/TEAM/a922/c5e1/-0e49-4e23-ab8d-bb8a8236b84e?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ab4j~-tv41QpHoXBH3OPev5Pv65fDPKj8Ds~Fs1FVWL3PKVBEON8j8j9jT1faoNCWH6cxteRIh1QAE1oVuXOW88JFhVIK6PYRgE~aQUennuFWkE-FUdOKS9xi3EJ1tTIhN~vjFyqpEP3JcvCNTobkIvbD8TFjJ5~6u4ydKXNRoZu3GKrhoYVmgRxpZpBNAv8wSxeKA9bJmy~2ii9TdpRsoF1LEwCdEXp0Q6pAUgDpYBcBUjo~vyVBCApKusY7WZDa7fADYCnoYxdYol8mZhH31JYbhXBAg-F-YeFQJ8a605KukJZcGgncJOn5vWq4VjLDWzzBDnHDgDBqsufWZe~cA__"
-        autoPlay
-        loop
-        muted
-        playsInline
-      ></video>
+      <div className="">
+        <iframe
+          src="https://player.vimeo.com/video/1043516796?h=a0a6df1ecb&autoplay=1&loop=1&muted=1&controls=0&badge=0&autopause=0&player_id=0&app_id=58479"
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+          className="absolute top-0 left-0 w-full h-full object-cover"
+          title="-3fbc-4153-a7f2-da0e8d1eb8ff"
+        ></iframe>
+      </div>
 
       {/* Overlay escurecido para dar contraste */}
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>

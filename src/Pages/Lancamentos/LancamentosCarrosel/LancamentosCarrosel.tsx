@@ -1,4 +1,5 @@
 import AventalRosa from "../../../assets/O-avental-rosa-scaled.jpg";
+import Romaria from "../../../assets/romaria.png";
 
 import ThemeObras from "../../../components/ThemeObras/ThemeObras";
 
@@ -10,7 +11,7 @@ const LancamentosCarrossel = () => {
     themeColor: "#E0471E",
     images: [
       { src: AventalRosa, title: "O avental rosa", url: "/o-avental-rosa" },
-      { src: AventalRosa, title: "O avental rosa", url: "/o-avental-rosa" },
+      { src: Romaria, title: "Romaria", url: "/romaria" },
     ],
   };
 

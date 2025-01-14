@@ -47,14 +47,13 @@ const OndeQueremosChegar: React.FC = () => {
 
       {/* Imagem inferior */}
       <div className="flex justify-center mt-12">
-        <video
-          src="https://s3-figma-videos-production-sig.figma.com/video/1343982015119693441/TEAM/bcb4/9cc7/-fa0f-4814-86fc-5d24e4eef65c?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ftoOq5FDwJmo78XSleeE-GT5nunkBM1KxwEa~FCz270baQbVXMpHb0EefrD9CDBoL9alYAvFAgQ7GQD0BGrHNoFS4nyARwbUrL3tOca2Qh1jDy3ADYxA33kdZZvxr6Zfjzznre3qkqBxrb8nczHGe0E07DJMCAT~kvsAAd90WjJaK3FHeb0ll8wxLAYQhCJS3JEwxf58HOrDPO989Mx2zaHGEaAzU1-0G1GhDb6aJMQjeqSDXd9IKUAJIyIeuFvgDLWmArPrgtYkoOWbTv-hZ5TbrwFFfoFdrdy1eQii8gWEJcb~-QxSCr-iki1P-Onob7cCDhAQ2SG8fIKLiCV1DQ__"
-          autoPlay
-          loop
-          muted
-          className="w-full  container rounded-md px-10 lg:px-0"
-        ></video>
+        <iframe
+          src="https://player.vimeo.com/video/1043520308?h=3c0aff8184&autoplay=1&loop=1&muted=1&controls=0&badge=0&autopause=0&player_id=0&app_id=58479"
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+          className="w-[80vw] h-[45vw] rounded-md"
+        ></iframe>
       </div>
+
       <div className="container mx-auto border border-b-2 border-[#E0471E] w-full mt-32 "></div>
     </section>
   );

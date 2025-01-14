@@ -1,7 +1,7 @@
 import pantanalImage from "../../../assets/longaSeries.png";
 import miniSeries from "../../../assets/miniSeries.png";
-// import filmes from "../../../assets/filmes.png";
-// import lancamentos from "../../../assets/lancamentos.png";
+import filmes from "../../../assets/filmes-thumb.png";
+import lancamentos from "../../../assets/romaria.png";
 import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
@@ -91,7 +91,7 @@ const GrandesObras2 = () => {
             </div>
             <div className="relative p-2 sm:p-4">
               <img
-                src="https://s3-alpha-sig.figma.com/img/9dc7/07b9/baaad8b589ff07a9194760a3988849ce?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jjtAMo97-uMyVuG8qcE2kT2xpW0TsXq-HmqEmEuCKEPNLSVBUZIBGo6JlQYK961Ao~1z3eHjoVHnLIzfOilaUAbeizNgpU7oXjP-nf3VJobllDrnBKQBWLUSjbvG8XA~8CPBqHuxOqTu1f3Hduj511rQvOrVgyyP~4tjrFumkWsSUadpRfCzlEN4JMrD2LNlVIferK7TZN6py-ejaJaKnrmS8sCIbPYKHLDObU54dE3o6B3JGzq9aFS-~rck6erwfSXU7nizyngMY-Br7e3SKdYByWjeQI0KCIpMp-lsWtcVBH9SHGzyHfza4qtDWPHg9e5LKcPI2GSbOAEHgHglYg__"
+                src={filmes}
                 alt="Imagem 3"
                 className="w-full h-64 sm:h-[400px] object-cover rounded-md"
               />
@@ -106,7 +106,7 @@ const GrandesObras2 = () => {
             </div>
             <div className="relative p-2 sm:p-4">
               <img
-                src="https://s3-alpha-sig.figma.com/img/184d/de8a/f2d8935dda0d787f1d068a4932a86134?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SRhvm6vQSqDLvIfL9YPb7N8l5-goyWCjO3PwKl~dTrGSBo~V3Yeel-wFWYGgxhc~pbZB5Sgt9lsQO1bRqCa1KnfsJ6EJXTiAP5KMNXXwuC9Z4zLwKyto~OBIoab7NT4zTYt1KfAyVBd8zaNWvjKwwTHQ4kv4qn-E0~MWUz1NAYKk1t87Z7E8N6GvppY7T-QuegvZ5r~~Jczcpb-OeUWlNTz~nxNrWdtilaraidebhLrTzNjU~fDWdhnYQOfRqKIxS-IlTGAaWZiBBGBbdzrLUqgo-ZAkHOdbWObUBAIPp3o88HGFiuljiLCNIYs4E2704VCQz6m6NJpTYw83Di5Xrw__"
+                src={lancamentos}
                 alt="Imagem 4"
                 className="w-full h-64 sm:h-[400px] object-cover rounded-md"
               />
