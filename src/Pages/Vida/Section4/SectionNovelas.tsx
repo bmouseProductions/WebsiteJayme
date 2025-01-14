@@ -10,6 +10,7 @@ import chiquinho from "../../../assets/chiquinho.jpg";
 import terraNostra from "../../../assets/terra-nostra.jpg";
 
 import AventalRosa from "../../../assets/O-avental-rosa-scaled.jpg";
+import romaria from "../../../assets/romaria.png";
 
 import olga from "../../../assets/Olga-7.jpg";
 import { useState } from "react";
@@ -29,10 +30,10 @@ const SectionNovelas = () => {
       image: [vendedorDeSonhos, oTempoeoVento, olga], // Adicione imagens específicas para Filmes
     },
     "Mini-Series e Series": {
-      image: [seteMulheres, chiquinho, maysaImage], // Adicione imagens específicas para Series
+      image: [seteMulheres, chiquinho, maysaImage],
     },
     Lançamentos: {
-      image: [AventalRosa], // Adicione imagens específicas para Series
+      image: [AventalRosa, romaria],
     },
   };
 
