@@ -17,7 +17,7 @@ const GrandesObrasSection: React.FC = () => {
               GRANDES <br /> OBRAS.
             </h1>
             <button className="mt-4 px-6 py-2 bg-red-500 text-white rounded-full hover:bg-red-600 transition">
-              Saiba Mais
+              <a href="/Obras">Saiba Mais</a>
             </button>
           </div>
 
@@ -39,11 +39,13 @@ const GrandesObrasSection: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
           {/* Card 1 */}
           <div className="flex flex-col items-center text-center">
-            <img
-              src={roqueImage}
-              alt="Roque Santeiro"
-              className="w-full rounded-md mb-4"
-            />
+            <a href="/roque-santeiro">
+              <img
+                src={roqueImage}
+                alt="Roque Santeiro"
+                className="w-full rounded-md mb-4"
+              />
+            </a>
             <h3 className="text-xl font-normal font-glonimove">
               ROQUE SANTEIRO
             </h3>
@@ -52,22 +54,26 @@ const GrandesObrasSection: React.FC = () => {
 
           {/* Card 2 */}
           <div className="flex flex-col items-center text-center">
-            <img
-              src={pantanalImage}
-              alt="Pantanal"
-              className="w-full rounded-md mb-4"
-            />
+            <a href="/pantanal">
+              <img
+                src={pantanalImage}
+                alt="Pantanal"
+                className="w-full rounded-md mb-4"
+              />
+            </a>
             <h3 className="text-xl font-normal font-glonimove">PANTANAL</h3>
             <p className="text-gray-400 font-normal font-glonimove">1986</p>
           </div>
 
           {/* Card 3 */}
           <div className="flex flex-col items-center text-center">
-            <img
-              src={maysaImage}
-              alt="Maysa: Quando Fala o Coração"
-              className="w-full rounded-md mb-4"
-            />
+            <a href="/maysa-quando-fala-o-coracao">
+              <img
+                src={maysaImage}
+                alt="Maysa: Quando Fala o Coração"
+                className="w-full rounded-md mb-4"
+              />
+            </a>
             <h3 className="text-xl font-normal font-glonimove ">
               MAYSA: QUANDO <br /> FALA O CORAÇÃO
             </h3>

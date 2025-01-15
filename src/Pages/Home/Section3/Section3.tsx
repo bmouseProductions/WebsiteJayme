@@ -28,7 +28,7 @@ const SectionMagia: React.FC = () => {
 
         {/* Botão */}
         <button className="mt-8 px-6 py-3 bg-red-500 text-white text-lg  rounded-full hover:bg-red-600 transition font-semibold font-glonimove">
-          Saiba Mais
+          <a href="/Visao">Saiba Mais</a>
         </button>
 
         {/* Imagem */}

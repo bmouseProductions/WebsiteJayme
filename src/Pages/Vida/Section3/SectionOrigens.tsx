@@ -1,7 +1,23 @@
 import React, { useState } from "react";
+import origens from "../../../assets/origens.webp";
+import carreira from "../../../assets/carreira.webp";
+import presente from "../../../assets/presente.webp";
 
 const SectionOrigens: React.FC = () => {
   const [activeTab, setActiveTab] = useState("Origens");
+
+  const getImageForTab = () => {
+    switch (activeTab) {
+      case "Origens":
+        return origens; // Substitua pelo caminho da imagem de "Origens"
+      case "Carreira":
+        return carreira; // Substitua pelo caminho da imagem de "Carreira"
+      case "Presente":
+        return presente; // Substitua pelo caminho da imagem de "Presente"
+      default:
+        return "/path/to/default-image.jpg"; // Substitua pelo caminho de uma imagem padrão
+    }
+  };
 
   const renderContent = () => {
     switch (activeTab) {
@@ -49,8 +65,11 @@ const SectionOrigens: React.FC = () => {
 
   return (
     <section className="bg-[#1C2415] text-white py-16 px-6 md:px-12 flex flex-col md:flex-row justify-center items-center gap-12">
-      {/* Imagem no lado esquerdo no desktop */}
-      <div className="bg-[#333] w-full md:w-1/2 h-96 rounded-md"></div>
+      {/* Imagem dinâmica */}
+      <div
+        className="bg-cover bg-center w-full md:w-1/2 h-96 rounded-md"
+        style={{ backgroundImage: `url(${getImageForTab()})` }}
+      ></div>
 
       {/* Conteúdo */}
       <div className="w-full md:w-1/2 space-y-8">
