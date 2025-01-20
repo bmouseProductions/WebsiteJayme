@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import bemVindo from "../../../assets/BemVindo.png";
+import artigo from "../../../assets/artigos.jpg";
+import ouvir from "../../../assets/paraouvir.jpg";
 import icons from "../../../assets/all-icons.png";
 
 type TabContent = {
@@ -38,7 +40,7 @@ const InspirationSection: React.FC = () => {
     //   ],
     // },
     Artigos: {
-      image: bemVindo,
+      image: artigo,
       title: "ARTIGOS INSPIRADORES",
       text: [
         "As constantes mudanças enfrentadas atualmente, em todos os âmbitos da sociedade, exigem que todos estejam em um processo contínuo de evolução, adaptação e aprendizado. Em todos os papéis, é preciso perceber o que vem mudando à nossa volta e o que precisamos mudar em nossa forma de agir.",
@@ -67,7 +69,7 @@ const InspirationSection: React.FC = () => {
       ],
     },
     "Para ouvir": {
-      image: bemVindo,
+      image: ouvir,
       title: "MÚSICAS QUE INSPIRAM",
       text: ["Descubra músicas que tocam o coração e motivam a sua jornada."],
       spotifyEmbedUrl:

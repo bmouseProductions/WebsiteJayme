@@ -24,7 +24,7 @@ const MaisSobre: React.FC = () => {
             telonas foi com o longa-metragem “Olga”...
           </p>
           <button className="mt-6 px-6 py-2 bg-red-500 text-white rounded-full hover:bg-red-600 transition font-semibold font-glonimove">
-            Saiba Mais
+            <a href="/vida">Saiba Mais</a>
           </button>
         </div>
       </div>

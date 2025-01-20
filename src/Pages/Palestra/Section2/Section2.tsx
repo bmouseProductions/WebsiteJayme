@@ -6,7 +6,7 @@ const HistoriaPorTras: React.FC = () => {
   return (
     <section className="bg-[#1C2415] text-white py-16 ">
       {/* Título */}
-      <h2 className="text-left  mx-auto lg:text-center px-3 lg:px-0 text-2xl md:text-2xl  text-[#FF4A20] uppercase lg:mb-12 font-normal font-glonimove">
+      <h2 className="text-left  mx-auto lg:text-center px-3 lg:px-8 text-2xl md:text-2xl  text-[#FF4A20] uppercase lg:mb-12 font-normal font-glonimove">
         A trajetória de um dos maiores diretores do Brasil em palestras que unem
         arte, emoção e propósito, inspirando pessoas e profissionais a sonharem
         grande e alcançarem o extraordinário.
@@ -22,7 +22,7 @@ const HistoriaPorTras: React.FC = () => {
       </div> */}
 
       {/* Texto */}
-      <div className="container px-4   lg:px-0 mx-auto lg:text-left space-y-12 text-lg md:text-xl py-10 leading-relaxed font-extralight font-glonimove">
+      <div className="container px-4 lg:px-8 mx-auto lg:text-left space-y-12 text-lg md:text-xl py-10 leading-relaxed font-extralight font-glonimove">
         <p className="font-bold">
           Uma jornada que fala sobre emoções e gera inspirações.
         </p>
@@ -48,7 +48,7 @@ const HistoriaPorTras: React.FC = () => {
 
       <div>
         <img
-          src={palestraMobile} // Substitua pelo caminho correto da imagem
+          src={palestraMobile}
           alt="Palestra Mobile"
           className="w-full container rounded-md  px-10  lg:hidden"
         />

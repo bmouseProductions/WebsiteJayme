@@ -20,7 +20,7 @@ const OndeQueremosChegar: React.FC = () => {
       </div>
 
       {/* Texto */}
-      <div className="container px-4   lg:px-0 mx-auto lg:text-left space-y-12 text-lg md:text-xl py-10 leading-relaxed font-extralight font-glonimove">
+      <div className="container px-4 lg:px-8 mx-auto lg:text-left space-y-12 text-lg md:text-xl py-10 leading-relaxed font-extralight font-glonimove">
         <p>
           Entender aonde queremos chegar, é sobre entender o propósito que nos
           move, honrar as histórias que nos trouxeram até aqui e traçar novos
