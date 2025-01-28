@@ -2,6 +2,10 @@ import React, { useState } from "react";
 
 const ContactForm: React.FC = () => {
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
+  const [name, setName] = useState<string>("");
+  const [email, setEmail] = useState<string>("");
+  const [message, setMessage] = useState<string>("");
+  const [feedback, setFeedback] = useState<string | null>(null);
 
   const toggleTopic = (topic: string) => {
     if (selectedTopics.includes(topic)) {
@@ -11,43 +15,79 @@ const ContactForm: React.FC = () => {
     }
   };
 
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    const formData = {
+      name,
+      email,
+      message,
+      topics: selectedTopics,
+    };
+
+    try {
+      const response = await fetch("http://localhost:3001/submit-form", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setFeedback("Formulário enviado com sucesso!");
+        setName("");
+        setEmail("");
+        setMessage("");
+        setSelectedTopics([]);
+      } else {
+        setFeedback(data.error || "Ocorreu um erro ao enviar o formulário.");
+      }
+    } catch (error) {
+      console.error("Erro ao enviar formulário:", error);
+      setFeedback("Ocorreu um erro ao enviar o formulário.");
+    }
+  };
+
   return (
-    <section className="bg-[#112011] text-white py-16 px-4 md:px-24">
-      {/* Título */}
+    <section className="bg-[#1C2415]] text-white py-16 px-4 md:px-24">
       <h1 className="text-center text-[#F12730] text-4xl sm:text-5xl md:text-6xl font-medium font-glonimove mb-12 ">
         VAMOS SONHAR JUNTOS?
       </h1>
 
-      {/* Formulário */}
-      <form className="max-w-3xl mx-auto space-y-6">
-        {/* Nome */}
+      <form onSubmit={handleSubmit} className="max-w-3xl mx-auto space-y-6">
         <div>
           <input
             type="text"
             placeholder="Seu Nome"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
             className="w-full bg-transparent border-b border-gray-400 text-white py-2 focus:outline-none focus:border-[#F12730]"
           />
         </div>
 
-        {/* Email */}
         <div>
           <input
             type="email"
             placeholder="Seu Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             className="w-full bg-transparent border-b border-gray-400 text-white py-2 focus:outline-none focus:border-[#F12730]"
           />
         </div>
 
-        {/* Mensagem */}
         <div>
           <textarea
             placeholder="Mensagem"
             rows={4}
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
             className="w-full bg-transparent border-b border-gray-400 text-white py-2 focus:outline-none focus:border-[#F12730]"
           />
         </div>
 
-        {/* Assuntos */}
         <div className="space-y-4">
           <p className="text-gray-300 text-center font-normal font-glonimove">
             Assuntos da nossa conversa <br />
@@ -73,7 +113,6 @@ const ContactForm: React.FC = () => {
           </div>
         </div>
 
-        {/* Botão de Enviar */}
         <div className="text-center">
           <button
             type="submit"
@@ -84,8 +123,9 @@ const ContactForm: React.FC = () => {
         </div>
       </form>
 
-      {/* Vídeo */}
-      {/* Descomente se desejar mostrar o vídeo responsivo */}
+      {feedback && (
+        <p className="text-center mt-6 text-lg text-[#F12730]">{feedback}</p>
+      )}
     </section>
   );
 };
