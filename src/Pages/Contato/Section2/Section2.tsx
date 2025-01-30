@@ -52,7 +52,7 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <section className="bg-[#1C2415]] text-white py-16 px-4 md:px-24">
+    <section className="bg-[#1C2415] text-white py-16 px-4 md:px-24">
       <h1 className="text-center text-[#F12730] text-4xl sm:text-5xl md:text-6xl font-medium font-glonimove mb-12 ">
         VAMOS SONHAR JUNTOS?
       </h1>
@@ -95,17 +95,17 @@ const ContactForm: React.FC = () => {
               (Você pode escolher mais de um assunto)
             </span>
           </p>
-          <div className="flex justify-center space-x-4 flex-wrap font-normal font-glonimove">
+          <div className="flex justify-center flex-wrap gap-2 sm:gap-4 font-normal font-glonimove">
             {["Palestra", "Direção", "Entrevista", "Outro"].map((topic) => (
               <button
                 key={topic}
                 type="button"
                 onClick={() => toggleTopic(topic)}
-                className={`px-4 py-2 rounded-full border ${
+                className={`px-4 py-2 sm:px-6 sm:py-3 rounded-full border text-sm sm:text-base ${
                   selectedTopics.includes(topic)
                     ? "bg-[#F12730] text-white"
                     : "bg-transparent text-gray-300 border-gray-300"
-                } hover:border-white`}
+                } hover:border-white transition-all duration-300`}
               >
                 {topic}
               </button>
