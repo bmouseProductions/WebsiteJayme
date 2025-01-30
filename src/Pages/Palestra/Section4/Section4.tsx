@@ -29,7 +29,7 @@ const PalestraCard = () => {
               As palestras de Jayme Monjardim são perfeitas para:
             </p>
             <p className="text-xl sm:text-2xl leading-relaxed font-extralight font-glonimove text-center md:text-left">
-              <ul className="list-disc">
+              <ul className="list-disc list-inside text-lg sm:text-xl md:text-2xl leading-relaxed font-extralight font-glonimove text-center md:text-left space-y-2">
                 <li>
                   Empresas e eventos corporativos: Motivação e engajamento
                   profissional.

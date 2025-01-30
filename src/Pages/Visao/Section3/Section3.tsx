@@ -46,13 +46,13 @@ const Palestra = () => {
       <Slider {...settings}>
         {/* Slide 1 */}
         <div className="p-4 md:p-10">
-          <div className="bg-[#2B3A1D] h-screen lg:h-auto rounded-lg flex flex-col md:flex-row items-center gap-6 md:gap-8 max-w-[1200px] mx-auto">
+          <div className="bg-[#2B3A1D] sm:min-h-screen md:min-h-0 lg:h-auto rounded-lg flex flex-col md:flex-row items-center gap-6 md:gap-8 max-w-[1200px] mx-auto">
             {/* Imagem */}
             <div className="w-full md:w-auto flex justify-center">
               <img
                 src={palestra}
                 alt="Grandes Narrativas"
-                className="rounded-md object-cover h-[200px]  lg:h-[50rem] w-full "
+                className="rounded-md object-cover w-full  lg:h-[50rem]"
               />
             </div>
             {/* Texto */}
@@ -82,13 +82,13 @@ const Palestra = () => {
 
         {/* Slide 2 */}
         <div className="p-4 md:p-10">
-          <div className="bg-[#2B3A1D] lg:h-auto h-screen rounded-lg flex flex-col md:flex-row items-center gap-6 md:gap-8 max-w-[1200px] mx-auto">
+          <div className="bg-[#2B3A1D] sm:min-h-screen md:min-h-0 lg:h-auto rounded-lg flex flex-col md:flex-row items-center gap-6 md:gap-8 max-w-[1200px] mx-auto">
             {/* Imagem */}
             <div className="w-full md:w-auto flex justify-center">
               <img
                 src={palestra}
                 alt="Grandes Narrativas"
-                className="rounded-md object-cover h-[200px] lg:h-[50rem] w-full "
+                className="rounded-md object-cover w-full  lg:h-[50rem] "
               />
             </div>
             {/* Texto */}

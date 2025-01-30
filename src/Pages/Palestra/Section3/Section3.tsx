@@ -21,7 +21,7 @@ const CriatividadeeSonho: React.FC = () => {
           da vida e da carreira de diferentes profissionais.
         </p>
         <p className="leading-relaxed text-lg font-extralight font-glonimove">
-          <ul className="list-disc space-y-2">
+          <ul className="lg:list-disc space-y-2">
             <li>
               Raízes e trajetória: A influência da família e a força das
               origens.

@@ -74,7 +74,7 @@ const SectionNovelas = () => {
               <img
                 src={img}
                 alt={`Imagem ${index + 1}`}
-                className="w-full h-[200px] sm:h-[500px] object-cover rounded-md mb-4"
+                className="w-full  sm:h-[500px] object-cover rounded-md mb-4"
               />
             </div>
           ))}

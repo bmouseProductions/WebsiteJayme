@@ -35,7 +35,7 @@ const HistoriaPorTras: React.FC = () => {
           inspiram em qualquer área.
         </p>
         <p>
-          <ul className="list-disc">
+          <ul className="lg:list-disc">
             <li>40 anos de carreira e experiência na direção artística.</li>
             <li>Obras que emocionaram e se tornaram patrimônios nacionais.</li>
             <li>
