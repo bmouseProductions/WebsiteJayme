@@ -6,7 +6,7 @@ const HistoriaPorTras: React.FC = () => {
   return (
     <section className="bg-[#1C2415] text-white py-16 ">
       {/* Título */}
-      <h2 className="text-left  mx-auto lg:text-center px-3 lg:px-8 text-2xl md:text-2xl  text-[#FF4A20] uppercase lg:mb-12 font-normal font-glonimove">
+      <h2 className="text-left  mx-auto lg:text-center px-3 lg:px-8 text-2xl md:text-2xl  text-[#FF4A20]  lg:mb-12 font-normal font-glonimove">
         A trajetória de um dos maiores diretores do Brasil em palestras que unem
         arte, emoção e propósito, inspirando pessoas e profissionais a sonharem
         grande e alcançarem o extraordinário.

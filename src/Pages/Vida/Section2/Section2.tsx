@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useEffect, useRef, useState } from "react";
 import Livro from "../../../assets/HomemLivro.png";
 import LivroMobile from "../../../assets/livro-mobile.png";

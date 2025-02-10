@@ -1,8 +1,33 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import quero from "../../../assets/ondequeremos.png";
 import queroMobile from "../../../assets/queremos-mobile.png";
+import Player from "@vimeo/player";
 
 const OndeQueremosChegar: React.FC = () => {
+
+  const iframeRef = useRef<HTMLIFrameElement>(null);
+  const [,setIsPlaying] = useState(false);
+  const playerRef = useRef<Player | null>(null);
+
+  useEffect(() => {
+    if (iframeRef.current) {
+      playerRef.current = new Player(iframeRef.current);
+    }
+  }, []);
+
+  const togglePlay = async () => {
+    if (playerRef.current) {
+      const status = await playerRef.current.getPaused();
+      if (status) {
+        await playerRef.current.play();
+        setIsPlaying(true);
+      } else {
+        await playerRef.current.pause();
+        setIsPlaying(false);
+      }
+    }
+  };
+
   return (
     <section className="bg-[#1C2415] text-white py-16 ">
       {/* Título */}
@@ -48,9 +73,10 @@ const OndeQueremosChegar: React.FC = () => {
       {/* Imagem inferior */}
       <div className="flex justify-center mt-12">
         <iframe
-          src="https://player.vimeo.com/video/1043520308?h=3c0aff8184&autoplay=1&loop=1&muted=1&controls=0&badge=0&autopause=0&player_id=0&app_id=58479"
+          src="https://player.vimeo.com/video/1054254834?h=876b4de4eb&amp;badge=0&amp;autopause=0&controls=0&amp;player_id=0&amp;app_id=58479"
           allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
           className="w-[80vw] h-[45vw] rounded-md"
+          onClick={togglePlay}
         ></iframe>
       </div>
 

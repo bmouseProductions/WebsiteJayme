@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
         {/* Informações à esquerda */}
         <div className="flex flex-col space-y-4 text-center md:text-left">
           <p className="text-sm">TODOS OS DIREITOS RESERVADOS</p>
-          <p className="text-sm">©2024 BMOUSE</p>
+          <p className="text-sm">©2025 BMOUSE</p>
         </div>
 
         {/* Texto central (Endereço) */}
