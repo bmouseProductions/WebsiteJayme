@@ -2,12 +2,10 @@ import React, { useEffect, useRef, useState } from "react";
 import Livro from "../../../assets/HomemLivro.png";
 import LivroMobile from "../../../assets/livro-mobile.png";
 import Player from "@vimeo/player";
-import { Play } from "lucide-react"; // Ícones para os botões
-
 
 const SectionCriadorSonhador: React.FC = () => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
-  const [isPlaying,setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
   const playerRef = useRef<Player | null>(null);
 
   useEffect(() => {
@@ -30,19 +28,20 @@ const SectionCriadorSonhador: React.FC = () => {
       }
     }
   };
+
   return (
     <section className="bg-[#1C2415] text-white py-16 px-6">
       {/* Título */}
-      <h2 className="text-center text-4xl md:text-5xl  text-[#FF4A20] uppercase lg:mb-12 font-normal font-glonimove">
+      <h2 className="text-center text-4xl md:text-5xl text-[#FF4A20] uppercase lg:mb-12 font-normal font-glonimove">
         Criador e Sonhador
       </h2>
 
       {/* Imagem do autor */}
       <div className="flex justify-center lg:mb-8">
         <img
-          src={Livro} // Substitua pelo caminho correto da imagem
+          src={Livro}
           alt="Jayme Monjardim"
-          className="w-full container rounded-md   hidden lg:block"
+          className="w-full container rounded-md hidden lg:block"
         />
       </div>
 
@@ -76,9 +75,9 @@ const SectionCriadorSonhador: React.FC = () => {
 
       <div>
         <img
-          src={LivroMobile} // Substitua pelo caminho correto da imagem
+          src={LivroMobile}
           alt="Jayme Monjardim"
-          className="w-full container rounded-md  px-10  lg:hidden"
+          className="w-full container rounded-md px-10 lg:hidden"
         />
       </div>
 
@@ -103,18 +102,28 @@ const SectionCriadorSonhador: React.FC = () => {
                 onClick={togglePlay}
                 className="bg-white/80 hover:bg-white/90 p-6 rounded-full transition duration-200"
               >
-                <Play className="w-12 h-12 text-black" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2"
+                  stroke="black"
+                  className="w-12 h-12"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M5 3v18l15-9L5 3z"
+                  />
+                </svg>
               </button>
             </div>
           )}
         </div>
       </div>
-      <div className="container mx-auto border border-b-2 border-[#E0471E] w-full mt-32 "></div>
+      <div className="container mx-auto border border-b-2 border-[#E0471E] w-full mt-32"></div>
     </section>
   );
 };
 
 export default SectionCriadorSonhador;
-
-
-//https://player.vimeo.com/video/1054251427?h=cb23e36b33&badge=0&autoplay=0&controls=0&autopause=0&player_id=0&app_id=58479
