@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../../../assets/logo.png";
 import decoration2 from "../../../assets/decoration2.png";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa"; // Usando react-icons para os ícones
+import videoUrl from "/videoVida.mp4"
 
 const Section1: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,14 +10,15 @@ const Section1: React.FC = () => {
   return (
     <div className="relative h-screen overflow-hidden bg-[#1C2415]">
       {/* Vídeo de fundo */}
-      <div className="">
-        <iframe
-          src="https://player.vimeo.com/video/1043489224?h=428b792c1c&autoplay=1&loop=1&muted=1&controls=0&badge=0&autopause=0&player_id=0&app_id=58479"
-          allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+      <video
+          src={videoUrl}
           className="absolute top-0 left-0 w-full h-full object-cover"
           title="-3fbc-4153-a7f2-da0e8d1eb8ff"
-        ></iframe>
-      </div>
+        autoPlay
+        loop
+        muted
+        playsInline
+        ></video>
 
       {/* Overlay escurecido para dar contraste */}
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
