@@ -6,7 +6,7 @@ import Player from "@vimeo/player";
 
 const SectionCriadorSonhador: React.FC = () => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [,setIsPlaying] = useState(false);
   const playerRef = useRef<Player | null>(null);
 
   useEffect(() => {
