@@ -52,18 +52,16 @@ const HistoriaPorTras: React.FC = () => {
 
         {/* Vídeo */}
         <div className="lg:w-1/2 flex justify-center lg:justify-start relative">
-          <div
-            className="w-full max-w-[960px] lg:w-[100%] md:h-[45vw] lg:h-[500px] rounded-md relative cursor-pointer"
-            onClick={togglePlay}
-          >
+          <div className="w-full max-w-[960px] lg:w-[100%] md:h-[45vw] lg:h-[500px] rounded-md relative">
+            {/* Vídeo ajustado para preencher corretamente sem cortes */}
             <video
               ref={videoRef}
-              src={video} // Substitua pelo caminho do seu vídeo na pasta public
-              className="w-full h-full object-cover rounded-md"
-              muted
+              src={video}
+              className="w-full h-full rounded-md"
               preload="auto"
             />
-            
+
+            {/* Botão Play/Pause */}
             {!isPlaying && (
               <div className="absolute inset-0 flex items-center justify-center bg-black/40 rounded-md">
                 <button
