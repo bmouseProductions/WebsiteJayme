@@ -21,14 +21,14 @@ const HistoriaPorTras: React.FC = () => {
 
   return (
     <section className="bg-[#1C2415] text-white py-16">
-      <h2 className="text-center px-6 lg:px-12 text-2xl md:text-3xl text-[#FF4A20] mb-8 font-normal font-glonimove">
+      <h2 className="lg:text-center px-6 lg:px-12 text-2xl md:text-3xl text-[#FF4A20] mb-8 font-normal font-glonimove">
         A trajetória de um dos maiores diretores do Brasil em palestras que unem
         arte, emoção e propósito, inspirando pessoas e profissionais a sonharem
         grande e alcançarem o extraordinário.
       </h2>
 
       {/* Texto */}
-      <div className="container px-6 lg:px-16 mx-auto text-lg md:text-xl leading-relaxed font-extralight font-glonimove text-center lg:text-left mb-10">
+      <div className="container px-6 lg:px-16 mx-auto text-lg md:text-xl leading-relaxed font-extralight font-glonimove  lg:text-left mb-10">
         <p className="font-bold text-lg md:text-xl mb-4">
           Uma jornada que fala sobre emoções e gera inspirações.
         </p>

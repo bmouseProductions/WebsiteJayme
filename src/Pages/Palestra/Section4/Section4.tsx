@@ -18,18 +18,18 @@ const PalestraCard = () => {
           {/* Texto */}
           <div className="w-full md:w-1/2 text-white flex flex-col justify-center px-4">
             <img src={icons} className="w-56 mb-6 md:pl-2 mx-auto md:mx-0" />
-            <h1 className="text-[#F12730] text-3xl sm:text-4xl md:text-6xl uppercase font-medium font-glonimove mb-4 text-center md:text-left">
+            <h1 className="text-[#F12730] text-3xl sm:text-4xl md:text-6xl uppercase font-medium font-glonimove mb-4  md:text-left">
               Inspire o seu público.
             </h1>
-            <p className="text-xl sm:text-2xl leading-relaxed mb-4 font-extralight font-glonimove text-center md:text-left">
+            <p className="text-xl sm:text-2xl leading-relaxed mb-4 font-extralight font-glonimove  md:text-left">
               Cada palestra é cuidadosamente estruturada para envolver o público
               com histórias reais, momentos emocionantes e reflexões profundas.
             </p>
-            <p className="text-xl sm:text-2xl mb-2 leading-relaxed font-extralight font-glonimove text-center md:text-left">
+            <p className="text-xl sm:text-2xl mb-2 leading-relaxed font-extralight font-glonimove  md:text-left">
               As palestras de Jayme Monjardim são perfeitas para:
             </p>
-            <p className="text-xl sm:text-2xl leading-relaxed font-extralight font-glonimove text-center md:text-left">
-              <ul className="list-disc list-inside text-lg sm:text-xl md:text-2xl leading-relaxed font-extralight font-glonimove text-center md:text-left space-y-2">
+            <p className="text-xl sm:text-2xl leading-relaxed font-extralight font-glonimove  md:text-left">
+              <ul className="list-disc list-inside text-lg sm:text-xl md:text-2xl leading-relaxed font-extralight font-glonimove  md:text-left space-y-2">
                 <li>
                   Empresas e eventos corporativos: Motivação e engajamento
                   profissional.
