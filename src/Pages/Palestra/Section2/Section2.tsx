@@ -1,28 +1,19 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import React, { useEffect, useRef, useState } from "react";
-import Player from "@vimeo/player";
+import React, { useState } from "react";
+import video from "/corte_unico_jayme.mp4"
 
 const HistoriaPorTras: React.FC = () => {
-  const iframeRef = useRef<HTMLIFrameElement>(null);
   const [isPlaying, setIsPlaying] = useState(false);
-  const playerRef = useRef<Player | null>(null);
+  const videoRef = React.useRef<HTMLVideoElement | null>(null);
 
-  useEffect(() => {
-    if (iframeRef.current) {
-      playerRef.current = new Player(iframeRef.current);
-
-      playerRef.current.on("play", () => setIsPlaying(true));
-      playerRef.current.on("pause", () => setIsPlaying(false));
-    }
-  }, []);
-
-  const togglePlay = async () => {
-    if (playerRef.current) {
-      const isPaused = await playerRef.current.getPaused();
-      if (isPaused) {
-        await playerRef.current.play();
+  const togglePlay = () => {
+    if (videoRef.current) {
+      if (videoRef.current.paused) {
+        videoRef.current.play();
+        setIsPlaying(true);
       } else {
-        await playerRef.current.pause();
+        videoRef.current.pause();
+        setIsPlaying(false);
       }
     }
   };
@@ -62,16 +53,17 @@ const HistoriaPorTras: React.FC = () => {
         {/* Vídeo */}
         <div className="lg:w-1/2 flex justify-center lg:justify-start relative">
           <div
-            className="w-full max-w-[960px] lg:w-[100%] h-[50vw] md:h-[45vw] lg:h-[500px] rounded-md relative cursor-pointer"
+            className="w-full max-w-[960px] lg:w-[100%] md:h-[45vw] lg:h-[500px] rounded-md relative cursor-pointer"
             onClick={togglePlay}
           >
-            <iframe
-              ref={iframeRef}
-              src="https://player.vimeo.com/video/1055341783?h=ee04fe60a4&amp;badge=0&controls=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-              allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-              className="w-full h-full"
-            ></iframe>
-
+            <video
+              ref={videoRef}
+              src={video} // Substitua pelo caminho do seu vídeo na pasta public
+              className="w-full h-full object-cover rounded-md"
+              muted
+              preload="auto"
+            />
+            
             {!isPlaying && (
               <div className="absolute inset-0 flex items-center justify-center bg-black/40 rounded-md">
                 <button

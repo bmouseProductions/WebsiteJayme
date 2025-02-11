@@ -77,10 +77,10 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Texto central (Endereço) */}
-        <div className="text-center">
+        {/* <div className="text-center">
           <p className="text-sm">RUA FULANO DE TAL, 123</p>
           <p className="text-sm">RIO DE JANEIRO - BRASIL</p>
-        </div>
+        </div> */}
 
         {/* Redes sociais */}
         <div className="flex flex-col md:flex-row gap-4 items-center md:items-end space-y-4 mt-10 sm:mt-0  text-center md:text-right">
