@@ -29,7 +29,7 @@ const SectionMagia: React.FC = () => {
           TRANSFORMAR A MAGIA EM <span className="text-[#DBB781] font-bold">ARTE</span> E DAR VIDA AOS <span className="text-[#DBB781] font-bold">SONHOS</span>.
         </h1>
 
-        <button className="mt-8 px-6 py-3 bg-red-500 text-white text-lg rounded-full hover:bg-red-600 transition font-semibold font-glonimove">
+        <button className="mt-8 px-6 py-3 bg-[#E0471E] text-white text-lg rounded-full hover:bg-red-600 transition font-semibold font-glonimove">
           <a href="/Visao">Saiba Mais</a>
         </button>
 

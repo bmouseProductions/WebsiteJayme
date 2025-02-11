@@ -12,7 +12,7 @@ const JaymeSection1: React.FC = () => {
       <div className="relative max-w-screen-xl mx-auto px-8 grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
         {/* Bloco esquerdo */}
         <div className="flex flex-col space-y-4">
-          <h1 className="text-4xl sm:text-6xl font-semibold text-red-500 mb-4 font-glonimove">
+          <h1 className="text-4xl sm:text-6xl font-semibold text-[#E0471E] mb-4 font-glonimove">
             JAYME <br /> MONJARDIM
           </h1>
           <div className="flex space-x-4 items-center">
@@ -27,7 +27,7 @@ const JaymeSection1: React.FC = () => {
             eternas. Em mais de 40 anos de carreira, ele aprendeu a capturar a
             essência da vida e a traduzi-la em histórias que tocam a alma.
           </p>
-          <button className="mt-6 px-6 py-2 bg-red-500 text-white rounded-full hover:bg-red-600 transition font-glonimove">
+          <button className="mt-6 px-6 py-2 bg-[#E0471E] text-white rounded-full hover:bg-red-600 transition font-glonimove">
             <a href="/vida">Saiba Mais</a>
           </button>
         </div>

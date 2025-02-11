@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useState } from "react";
 import video from "/corte_unico_jayme.mp4";
+import direita from "../../../assets/decoration1.png";
 
 const HistoriaPorTras: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -26,67 +27,76 @@ const HistoriaPorTras: React.FC = () => {
         grande e alcançarem o extraordinário.
       </h2>
 
-      <div className="container px-6 lg:px-16 mx-auto flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-y-0 lg:space-x-10">
-        {/* Texto */}
-        <div className="lg:w-5/12 text-lg md:text-xl leading-relaxed font-extralight font-glonimove text-center lg:text-left">
-          <p className="font-bold text-lg md:text-xl mb-4">
-            Uma jornada que fala sobre emoções e gera inspirações.
-          </p>
-          <p className="mb-6">
-            Com uma trajetória única, Jayme Monjardim é um dos diretores mais
-            icônicos do Brasil, responsável por obras que marcaram a história da
-            televisão e emocionaram milhões. Filho de Maysa, herdeiro das raízes
-            da família Matarazzo e com uma carreira que atravessa fronteiras,
-            Jayme traz em suas palestras vivências pessoais e profissionais que
-            inspiram em qualquer área.
-          </p>
-          <ul className="list-disc space-y-2 pl-5">
-            <li>40 anos de carreira e experiência na direção artística.</li>
-            <li>Obras que emocionaram e se tornaram patrimônios nacionais.</li>
-            <li>
-              Histórias de superação, conexão com as raízes e transformação
-              pessoal.
-            </li>
-          </ul>
+      {/* Texto */}
+      <div className="container px-6 lg:px-16 mx-auto text-lg md:text-xl leading-relaxed font-extralight font-glonimove text-center lg:text-left mb-10">
+        <p className="font-bold text-lg md:text-xl mb-4">
+          Uma jornada que fala sobre emoções e gera inspirações.
+        </p>
+        <p className="mb-6">
+          Com uma trajetória única, Jayme Monjardim é um dos diretores mais
+          icônicos do Brasil, responsável por obras que marcaram a história da
+          televisão e emocionaram milhões. Filho de Maysa, herdeiro das raízes
+          da família Matarazzo e com uma carreira que atravessa fronteiras,
+          Jayme traz em suas palestras vivências pessoais e profissionais que
+          inspiram em qualquer área.
+        </p>
+        <ul className="list-disc space-y-2 pl-5">
+          <li>40 anos de carreira e experiência na direção artística.</li>
+          <li>Obras que emocionaram e se tornaram patrimônios nacionais.</li>
+          <li>
+            Histórias de superação, conexão com as raízes e transformação
+            pessoal.
+          </li>
+        </ul>
+      </div>
+
+      {/* Vídeo com Ícones */}
+      <div className="container px-6 lg:px-16 mx-auto flex items-center justify-center space-x-4">
+        {/* Ícone esquerdo */}
+        <div className="hidden lg:flex items-center justify-center">
+        <img src={direita} alt="" />
+
         </div>
 
         {/* Vídeo */}
-        <div className="lg:w-6/12 flex justify-center lg:justify-start relative">
-          <div className="w-full max-w-[720px] lg:w-full md:h-[40vw] lg:h-[450px] rounded-md relative">
-            {/* Vídeo ajustado para preencher corretamente sem cortes */}
-            <video
-              ref={videoRef}
-              src={video}
-              className="w-full h-full rounded-md cursor-pointer"
-              preload="auto"
-              onClick={togglePlay} // Adiciona a função de togglePlay ao clique no vídeo
-            />
+        <div className="w-full max-w-[720px] lg:w-full md:h-[40vw] lg:h-[450px] rounded-md relative">
+          <video
+            ref={videoRef}
+            src={video}
+            className="w-full h-full rounded-md cursor-pointer"
+            preload="auto"
+            onClick={togglePlay}
+          />
 
-            {/* Botão Play/Pause */}
-            {!isPlaying && (
-              <div className="absolute inset-0 flex items-center justify-center bg-black/40 rounded-md">
-                <button
-                  onClick={togglePlay}
-                  className="bg-white/80 hover:bg-white/90 p-6 rounded-full transition duration-200"
+          {/* Botão Play/Pause */}
+          {!isPlaying && (
+            <div className="absolute inset-0 flex items-center justify-center bg-black/40 rounded-md">
+              <button
+                onClick={togglePlay}
+                className="bg-white/80 hover:bg-white/90 p-6 rounded-full transition duration-200"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={2}
+                  stroke="black"
+                  className="w-12 h-12"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={2}
-                    stroke="black"
-                    className="w-12 h-12"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M5 3l14 9-14 9V3z"
-                    />
-                  </svg>
-                </button>
-              </div>
-            )}
-          </div>
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M5 3l14 9-14 9V3z"
+                  />
+                </svg>
+              </button>
+            </div>
+          )}
+        </div>
+
+        {/* Ícone direito */}
+        <div className="hidden lg:flex items-center justify-center">
+          <img src={direita} alt="" />
         </div>
       </div>
 

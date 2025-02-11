@@ -37,7 +37,7 @@ const GrandesObras2 = () => {
         {/* Título e descrição */}
         <div className="grid grid-cols-1 gap-6 text-center md:text-left md:grid-cols-2 items-center">
           <div>
-            <h1 className="text-4xl sm:text-6xl text-red-500 mb-4 font-normal font-glonimove">
+            <h1 className="text-4xl sm:text-6xl text-[#E0471E] mb-4 font-normal font-glonimove">
               GRANDES <br /> OBRAS.
             </h1>
           </div>

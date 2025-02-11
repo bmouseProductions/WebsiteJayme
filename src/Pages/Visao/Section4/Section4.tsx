@@ -10,7 +10,7 @@ const MaisSobre: React.FC = () => {
       <div className="relative max-w-screen-xl mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Bloco esquerdo */}
         <div className="flex flex-col">
-          <h1 className="text-6xl \ text-red-500 mb-4 font-medium font-glonimove">
+          <h1 className="text-6xl \ text-[#E0471E] mb-4 font-medium font-glonimove">
             MAIS <br /> SOBRE
           </h1>
         </div>
@@ -23,7 +23,7 @@ const MaisSobre: React.FC = () => {
             novelas e 11 minisséries. Também é cineasta, e sua estreia nas
             telonas foi com o longa-metragem “Olga”...
           </p>
-          <button className="mt-6 px-6 py-2 bg-red-500 text-white rounded-full hover:bg-red-600 transition font-semibold font-glonimove">
+          <button className="mt-6 px-6 py-2 bg-[#E0471E] text-white rounded-full hover:bg-red-600 transition font-semibold font-glonimove">
             <a href="/vida">Saiba Mais</a>
           </button>
         </div>

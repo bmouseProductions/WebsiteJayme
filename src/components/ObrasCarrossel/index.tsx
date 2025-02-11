@@ -48,7 +48,7 @@ const ObrasCarrossel = () => {
       <div className="relative max-w-screen-2xl mx-auto px-8">
         <div className="mx-auto max-w-screen-xl gap-8 items-center">
           <div>
-            <h1 className="text-6xl text-red-500 mb-4 font-medium font-glonimove">
+            <h1 className="text-6xl text-[#E0471E] mb-4 font-medium font-glonimove">
               OUTRAS <br /> OBRAS.
             </h1>
           </div>

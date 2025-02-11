@@ -13,10 +13,10 @@ const GrandesObrasSection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Esquerda: Título e botão */}
           <div>
-            <h1 className="text-6xl font-bold text-red-500 mb-4 font-glonimove">
+            <h1 className="text-6xl font-bold text-[#E0471E] mb-4 font-glonimove">
               GRANDES <br /> OBRAS.
             </h1>
-            <button className="mt-4 px-6 py-2 bg-red-500 text-white rounded-full hover:bg-red-600 transition">
+            <button className="mt-4 px-6 py-2 bg-[#E0471E] text-white rounded-full hover:bg-red-600 transition">
               <a href="/Obras">Saiba Mais</a>
             </button>
           </div>
