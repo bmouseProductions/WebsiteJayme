@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useState } from "react";
-import video from "/corte_unico_jayme.mp4"
+import video from "/corte_unico_jayme.mp4";
 
 const HistoriaPorTras: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -26,9 +26,9 @@ const HistoriaPorTras: React.FC = () => {
         grande e alcançarem o extraordinário.
       </h2>
 
-      <div className="container px-6 lg:px-16 mx-auto flex flex-col lg:flex-row items-center lg:items-start justify-center space-y-12 lg:space-y-0 lg:space-x-16">
+      <div className="container px-6 lg:px-16 mx-auto flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-y-0 lg:space-x-10">
         {/* Texto */}
-        <div className="lg:w-1/2 text-lg md:text-xl leading-relaxed font-extralight font-glonimove">
+        <div className="lg:w-5/12 text-lg md:text-xl leading-relaxed font-extralight font-glonimove text-center lg:text-left">
           <p className="font-bold text-lg md:text-xl mb-4">
             Uma jornada que fala sobre emoções e gera inspirações.
           </p>
@@ -51,8 +51,8 @@ const HistoriaPorTras: React.FC = () => {
         </div>
 
         {/* Vídeo */}
-        <div className="lg:w-1/2 flex justify-center lg:justify-start relative">
-          <div className="w-full max-w-[960px] lg:w-[100%] md:h-[45vw] lg:h-[500px] rounded-md relative">
+        <div className="lg:w-6/12 flex justify-center lg:justify-start relative">
+          <div className="w-full max-w-[720px] lg:w-full md:h-[40vw] lg:h-[450px] rounded-md relative">
             {/* Vídeo ajustado para preencher corretamente sem cortes */}
             <video
               ref={videoRef}
@@ -89,7 +89,7 @@ const HistoriaPorTras: React.FC = () => {
         </div>
       </div>
 
-      <div className="container mx-auto border border-b-2 border-[#E0471E] w-full mt-32"></div>
+      <div className="container mx-auto border border-b-2 border-[#E0471E] w-full mt-24"></div>
     </section>
   );
 };
