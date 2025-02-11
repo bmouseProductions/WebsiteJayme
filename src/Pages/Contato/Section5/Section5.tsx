@@ -45,7 +45,7 @@ const SuasObrasContato = () => {
   };
 
   return (
-    <section className="relative bg-[#18231E] text-white py-16">
+    <section className="relative bg-[#1C2415] text-white py-16">
       <div className="relative max-w-screen-2xl mx-auto px-8">
         <div className="mx-auto max-w-screen-xl gap-8 items-center">
           <div>
