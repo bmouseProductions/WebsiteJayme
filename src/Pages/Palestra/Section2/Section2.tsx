@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import video from "/corte_unico_jayme.mp4";
 
 const HistoriaPorTras: React.FC = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [, setIsPlaying] = useState(false);
   const videoRef = React.useRef<HTMLVideoElement | null>(null);
 
   const togglePlay = () => {
