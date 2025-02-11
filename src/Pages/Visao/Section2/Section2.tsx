@@ -1,28 +1,36 @@
-/* eslint-disable @typescript-eslint/no-unused-expressions */
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, } from "react";
 import quero from "../../../assets/ondequeremos.png";
 import queroMobile from "../../../assets/queremos-mobile.png";
-import Player from "@vimeo/player";
+// import Player from "@vimeo/player";
 
 const OndeQueremosChegar: React.FC = () => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
-  const [isPlaying, setIsPlaying] = useState(false);
-  const playerRef = useRef<Player | null>(null);
+  // // const [isPlaying, setIsPlaying] = useState(false);
+  // const playerRef = useRef<Player | null>(null);
 
-  useEffect(() => {
-    if (iframeRef.current) {
-      playerRef.current = new Player(iframeRef.current);
-      playerRef.current.on("play", () => setIsPlaying(true));
-      playerRef.current.on("pause", () => setIsPlaying(false));
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (iframeRef.current) {
+  //     playerRef.current = new Player(iframeRef.current);
 
-  const togglePlay = async () => {
-    if (playerRef.current) {
-      const isPaused = await playerRef.current.getPaused();
-      isPaused ? await playerRef.current.play() : await playerRef.current.pause();
-    }
-  };
+  //     playerRef.current.on("play", () => setIsPlaying(true));
+  //     playerRef.current.on("pause", () => setIsPlaying(false));
+  //   }
+  // }, []);
+
+  // const togglePlayPause = async () => {
+  //   if (playerRef.current) {
+  //     try {
+  //       const isPaused = await playerRef.current.getPaused();
+  //       if (isPaused) {
+  //         await playerRef.current.play();
+  //       } else {
+  //         await playerRef.current.pause();
+  //       }
+  //     } catch (error) {
+  //       console.error("Erro ao alternar play/pause:", error);
+  //     }
+  //   }
+  // };
 
   return (
     <section className="bg-[#1C2415] text-white py-16">
@@ -44,26 +52,21 @@ const OndeQueremosChegar: React.FC = () => {
       </div>
 
       <div className="flex justify-center mt-12 relative">
-        <div
-          className="w-[90vw] md:w-[80vw] h-[50vw] md:h-[45vw] rounded-md relative cursor-pointer"
-          onClick={togglePlay}
-        >
+        <div className="w-[90vw] md:w-[80vw] h-[50vw] md:h-[45vw] rounded-md relative">
           <iframe
             ref={iframeRef}
-            src="https://player.vimeo.com/video/1054254834?h=876b4de4eb&badge=0&autopause=0&controls=0&player_id=0&app_id=58479"
+            src="https://player.vimeo.com/video/1054254834?h=876b4de4eb&badge=0&autopause=0&controls=1&player_id=0&app_id=58479"
             allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
             className="w-full h-full rounded-md"
           ></iframe>
 
-          {!isPlaying && (
-            <div className="absolute inset-0 flex items-center justify-center bg-black/40 rounded-md">
-              <button onClick={togglePlay} className="bg-white/80 hover:bg-white/90 p-6 rounded-full transition duration-200">
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 text-black" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-              </button>
-            </div>
-          )}
+          {/* Botão de play/pause adaptado do SectionMagia */}
+          {/* <button
+            onClick={togglePlayPause}
+            className="absolute bottom-4 right-4 bg-gray-900 bg-opacity-75 text-white px-3 py-2 rounded-full text-sm"
+          >
+            {isPlaying ? "Pause" : "Play"}
+          </button> */}
         </div>
       </div>
 

@@ -1,33 +1,33 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, {} from "react";
 import Livro from "../../../assets/HomemLivro.png";
 import LivroMobile from "../../../assets/livro-mobile.png";
-import Player from "@vimeo/player";
+// import Player from "@vimeo/player";
 
 const SectionCriadorSonhador: React.FC = () => {
-  const iframeRef = useRef<HTMLIFrameElement>(null);
-  const [isPlaying, setIsPlaying] = useState(false);
-  const playerRef = useRef<Player | null>(null);
+  // const iframeRef = useRef<HTMLIFrameElement>(null);
+  // const [isPlaying, setIsPlaying] = useState(false);
+  // const playerRef = useRef<Player | null>(null);
 
-  useEffect(() => {
-    if (iframeRef.current) {
-      playerRef.current = new Player(iframeRef.current);
+  // useEffect(() => {
+  //   if (iframeRef.current) {
+  //     playerRef.current = new Player(iframeRef.current);
 
-      // Verifica se o vídeo está tocando ou pausado
-      playerRef.current.on("play", () => setIsPlaying(true));
-      playerRef.current.on("pause", () => setIsPlaying(false));
-    }
-  }, []);
+  //     // Verifica se o vídeo está tocando ou pausado
+  //     playerRef.current.on("play", () => setIsPlaying(true));
+  //     playerRef.current.on("pause", () => setIsPlaying(false));
+  //   }
+  // }, []);
 
-  const togglePlay = async () => {
-    if (playerRef.current) {
-      const isPaused = await playerRef.current.getPaused();
-      if (isPaused) {
-        await playerRef.current.play();
-      } else {
-        await playerRef.current.pause();
-      }
-    }
-  };
+  // const togglePlay = async () => {
+  //   if (playerRef.current) {
+  //     const isPaused = await playerRef.current.getPaused();
+  //     if (isPaused) {
+  //       await playerRef.current.play();
+  //     } else {
+  //       await playerRef.current.pause();
+  //     }
+  //   }
+  // };
 
   return (
     <section className="bg-[#1C2415] text-white py-16 px-6">
@@ -86,17 +86,15 @@ const SectionCriadorSonhador: React.FC = () => {
         {/* Container para capturar cliques e exibir botão */}
         <div
           className="w-[90vw] md:w-[80vw] h-[50vw] md:h-[45vw] rounded-md relative cursor-pointer"
-          onClick={togglePlay}
         >
           <iframe
-            ref={iframeRef}
-            src="https://player.vimeo.com/video/1054251427?h=cb23e36b33&badge=0&autoplay=0&controls=0&autopause=0&player_id=0&app_id=58479"
+            src="https://player.vimeo.com/video/1054251427?h=cb23e36b33&badge=0&autoplay=0&controls=1&autopause=0&player_id=0&app_id=58479"
             allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
             className="w-full h-full rounded-md"
           ></iframe>
 
           {/* Botão de Play/Pause - Exibido apenas quando o vídeo está pausado */}
-          {!isPlaying && (
+          {/* {!isPlaying && (
             <div className="absolute inset-0 flex items-center justify-center bg-black/40 rounded-md">
               <button
                 onClick={togglePlay}
@@ -118,7 +116,7 @@ const SectionCriadorSonhador: React.FC = () => {
                 </svg>
               </button>
             </div>
-          )}
+          )} */}
         </div>
       </div>
       <div className="container mx-auto border border-b-2 border-[#E0471E] w-full mt-32"></div>
