@@ -4,7 +4,9 @@
 
 @font-face {
   font-family: "Glonimove";
-  src: url("/font/Glonimove-Font/glonimove-regular.otf") format("opentype");
+  src: url("/font/Glonimove-Font/glonimove-regular.woff2") format("woff2"),
+       url("/font/Glonimove-Font/glonimove-regular.woff") format("woff"),
+       url("/font/Glonimove-Font/glonimove-regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
