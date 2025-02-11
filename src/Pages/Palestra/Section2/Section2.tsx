@@ -26,7 +26,7 @@ const HistoriaPorTras: React.FC = () => {
         grande e alcançarem o extraordinário.
       </h2>
 
-      <div className="container px-6 lg:px-16 mx-auto flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-y-0 lg:space-x-10">
+      <div className="container px-6 lg:px-16 mx-auto flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-y-0 lg:space-x-6">
         {/* Texto */}
         <div className="lg:w-5/12 text-lg md:text-xl leading-relaxed font-extralight font-glonimove text-center lg:text-left">
           <p className="font-bold text-lg md:text-xl mb-4">
@@ -52,39 +52,15 @@ const HistoriaPorTras: React.FC = () => {
 
         {/* Vídeo */}
         <div className="lg:w-6/12 flex justify-center lg:justify-start relative">
-          <div className="w-full max-w-[720px] lg:w-full md:h-[40vw] lg:h-[450px] rounded-md relative">
-            {/* Vídeo ajustado para preencher corretamente sem cortes */}
+          <div className="w-full max-w-[600px] lg:w-auto rounded-md relative">
+            {/* Vídeo com controle de play/pause no clique */}
             <video
               ref={videoRef}
               src={video}
-              className="w-full h-full rounded-md"
+              className="w-full h-auto rounded-md cursor-pointer"
               preload="auto"
+              onClick={togglePlay}
             />
-
-            {/* Botão Play/Pause */}
-            {!isPlaying && (
-              <div className="absolute inset-0 flex items-center justify-center bg-black/40 rounded-md">
-                <button
-                  onClick={togglePlay}
-                  className="bg-white/80 hover:bg-white/90 p-6 rounded-full transition duration-200"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={2}
-                    stroke="black"
-                    className="w-12 h-12"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M5 3l14 9-14 9V3z"
-                    />
-                  </svg>
-                </button>
-              </div>
-            )}
           </div>
         </div>
       </div>
